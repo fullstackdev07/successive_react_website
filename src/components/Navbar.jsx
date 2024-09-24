@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../assets/Logo.png";
+import weblogo from "../assets/weblogo.png";
 import { IoMdMenu } from "react-icons/io";
 
 const Navbar = () => {
@@ -7,25 +7,35 @@ const Navbar = () => {
 
     return (
         <nav>
-         
             <div className="flex items-center justify-between p-4 max-w-7xl mx-auto">
-          
-                <div>
-                    <img src={Logo} alt="engajify logo" className="h-12" />
+                <div style={{ backgroundColor: "transparent" }}>
+                    <img
+                        src={weblogo}
+                        alt="engajify logo"
+                        className="h-12"
+                    />
                 </div>
-
-               
                 <div>
-                    <ul className="hidden md:flex items-center gap-6 text-gray-700 cursor-pointer">
-                        <li className="hover:text-green-600 transition duration-200">Home</li>
-                        <li className="hover:text-green-600 transition duration-200">AI Social Assistant</li>
-                        <li className="hover:text-green-600 transition duration-200">Platform</li>
-                        <li className="hover:text-green-600 transition duration-200">Resources</li>
-                        <li className="hover:text-green-600 transition duration-200">Pricing</li>
+                    <ul className="hidden md:flex items-center gap-6 text-gray-700 cursor-pointer font-bold">
+                        <li className="hover:text-green-600 transition duration-200 js-underline">
+                            Home
+                        </li>
+                        <li className="hover:text-green-600 transition duration-200 ">
+                            AI Social Assistant
+                        </li>
+                        <li className="hover:text-green-600 transition duration-200 ">
+                            Platform
+                        </li>
+                        <li className="hover:text-green-600 transition duration-200 ">
+                            Resources
+                        </li>
+                        <li className="hover:text-green-600 transition duration-200">
+                            Pricing
+                        </li>
                     </ul>
                 </div>
 
-              
+
                 <div className="flex items-center gap-6">
                     <button className="px-6 py-2 text-white bg-green hover:bg-green-700 rounded-lg hover:bg-green-700 transition duration-200">
                         Get Started
@@ -39,18 +49,26 @@ const Navbar = () => {
                 </div>
             </div>
 
-          
             <div
-                className={`md:hidden w-full bg-green-600 transition-all duration-300 ease-in-out absolute  ${
-                    toggle ? "max-h-screen" : "max-h-0 overflow-hidden"
-                }`}
+                className={`md:hidden w-full bg-green-600 transition-all duration-300 ease-in-out absolute  ${toggle ? "max-h-screen" : "max-h-0 overflow-hidden"
+                    }`}
             >
                 <ul className="flex flex-col items-center p-4 text-white bg-green">
-                    <li className="py-2 border-b w-full text-center hover:bg-green-700 transition duration-200">Home</li>
-                    <li className="py-2 border-b w-full text-center hover:bg-green-700 transition duration-200">AI Social Assistant</li>
-                    <li className="py-2 border-b w-full text-center hover:bg-green-700 transition duration-200">Platform</li>
-                    <li className="py-2 border-b w-full text-center hover:bg-green-700 transition duration-200">Resources</li>
-                    <li className="py-2 w-full text-center hover:bg-green-700 transition duration-200">Pricing</li>
+                    <li className="py-2 border-b w-full text-center hover:bg-green-700 transition duration-200">
+                        Home
+                    </li>
+                    <li className="py-2 border-b w-full text-center hover:bg-green-700 transition duration-200">
+                        AI Social Assistant
+                    </li>
+                    <li className="py-2 border-b w-full text-center hover:bg-green-700 transition duration-200">
+                        Platform
+                    </li>
+                    <li className="py-2 border-b w-full text-center hover:bg-green-700 transition duration-200">
+                        Resources
+                    </li>
+                    <li className="py-2 w-full text-center hover:bg-green-700 transition duration-200">
+                        Pricing
+                    </li>
                 </ul>
             </div>
         </nav>

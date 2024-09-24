@@ -25,7 +25,7 @@ const cards = [
 
 const Article = () => {
   return (
-    <article className="flex items-center justify-center flex-col max-w-7xl mx-auto mt-20 px-4 bg-lightgray rounded-xl p-6">
+    <article className="flex items-center justify-center flex-col max-w-7xl mx-auto mt-20 px-4 bg-darkgray rounded-xl p-10">
       <div className="text-center p-6 rounded-lg">
         <h1 className="text-3xl md:text-5xl font-bold mx-auto">
           Driving <span className="text-lightpink underline">Business</span>{" "}
@@ -42,12 +42,12 @@ const Article = () => {
           {cards.map((card, index) => (
             <div
               key={index}
-              className="flex flex-col items-start text-center p-6 bg-white shadow-lg rounded-lg w-full md:w-1/3 min-h-[250px]"
+              className="flex flex-col items-start text-center p-6 bg-white shadow-lg rounded-xl w-full md:w-1/3 min-h-[350px]"
             >
               <button className="p-5 mb-4 text-4xl rounded-full bg-lightgray text-green">
                 {card.icon}
               </button>
-              <h1 className="text-lg font-semibold mb-2">{card.title}</h1>
+              <h1 className="text-lg font-bold mb-2 mt-5">{card.title}</h1>
               <p className="text-sm text-start">{card.description}</p>
             </div>
           ))}

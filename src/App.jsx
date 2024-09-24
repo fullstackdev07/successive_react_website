@@ -6,13 +6,12 @@ import Insights from "./components/Insights";
 import Main from "./components/Main";
 import EnterPrise from "./components/EnterPrise";
 import Footer from "./components/Footer";
-
+import './App.css'
 const App = () => {
   return (
     <div
       className="w-full h-full"
-      style={{
-        background: "-webkit-linear-gradient(45deg, hsla(192, 19%, 89%, 1) 84%, hsla(158, 20%, 74%, 1) 98%)"
+      style={{background: "-webkit-linear-gradient(45deg, hsla(172, 17%, 83%, 1) 18%, hsla(203, 19%, 92%, 1) 55%, hsla(161, 19%, 74%, 1) 100%)"
       }}
     >
       <Navbar />

@@ -5,7 +5,7 @@ import awards from "../assets/awards.png";
 const EnterPrise = () => {
     return (
         <div>
-            <article className="flex items-center justify-center flex-col max-w-7xl mx-auto mt-20 px-4 bg-mediumgreen rounded-xl p-6 space-y-8">
+            <article className="flex items-center justify-center flex-col max-w-7xl mx-auto mt-20 px-4 bg-mediumgreen rounded-xl p-4 space-y-8">
 
                 <div>
                     <h1 className="text-3xl md:text-5xl max-w-lg font-extrabold text-center leading-tight">
@@ -15,10 +15,8 @@ const EnterPrise = () => {
                     </h1>
                 </div>
 
-
                 <div className="max-w-xl text-center">
-                    <p className="text-base md:text-lg text-black leading-relaxed">
-
+                    <p className="text-base text-black leading-relaxed">
                         Engagify provides a cost-effective way for taking care of our social media needs 24/7 and targets your target audience (Chat GPT and expand on this for the copywriting for this section)
                     </p>
                 </div>
