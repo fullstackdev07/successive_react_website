@@ -6,13 +6,9 @@ import Insights from "./components/Insights";
 import Main from "./components/Main";
 import EnterPrise from "./components/EnterPrise";
 import Footer from "./components/Footer";
-import Aos from "aos";
-import "aos/dist/aos.css";
 import "./App.css";
 const App = () => {
-  useEffect(() => {
-    Aos.init();
-  }, []);
+ 
   return (
     <div
       className="w-full h-full"

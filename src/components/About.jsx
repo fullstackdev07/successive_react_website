@@ -3,7 +3,7 @@ import rating from "../assets/rating.png";
 import TrustPilot from "../assets/TrustPilot.png";
 import Instagram from "../assets/Instagram.png";
 import Nature from "../assets/Nature.png";
-import Curved from "../assets/Curved.png";
+import Curved from "../assets/curved.png";
 import shopping from "../assets/shopping.png";
 
 const About = () => {
