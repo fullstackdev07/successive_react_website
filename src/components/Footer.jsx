@@ -6,7 +6,7 @@ import { AiOutlineTikTok } from "react-icons/ai";
 
 const Footer = () => {
     return (
-        <footer className="w-full bg-ramagreen py-10">
+        <footer className="w-full bg-ramagreen py-10 mt-10">
             <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center px-4 space-y-8 md:space-y-0">
               
                 <div className="w-full md:w-1/2 flex flex-col items-center md:items-start space-y-4">

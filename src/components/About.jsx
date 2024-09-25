@@ -10,10 +10,14 @@ const About = () => {
   return (
     <div className="flex items-center flex-col mt-8 md:mt-14 px-2">
       <div>
-        <h1 className="text-3xl md:text-5xl font-bold max-w-xl text-center" data-aos="fade-right">
-          Grow Your Business{" "}
-          <span className="text-lightpink underline">Instagram</span> & Tiktok
-          With Real Engaged Followers
+        <h1
+          className="text-4xl md:text-6xl font-extrabold max-w-3xl mx-auto text-center leading-tight text-gray-900"
+          data-aos="fade-right"
+        >
+          We help our clients{" "}
+          <span className="text-lightpink font-extrabold underline">design</span>{" "} &amp;{" "}
+          <span className="text-lightpink font-extrabold underline">grow</span>{" "}
+          exceptional digital solutions.
         </h1>
         <p className="text-center mt-4 text-sm md:text-base">
           Ultra Premium White Glove Service...
@@ -22,7 +26,7 @@ const About = () => {
       <div className="ml-2 flex items-center relative right-80">
         <img src={Curved} alt="Curved" className="h-12 md:h-20" />
       </div>
-      <div className="flex items-center mt-6 md:mt-6 gap-4 justify-center md:justify-start">
+      <div className="flex items-center gap-4 justify-center md:justify-start">
         <div>
           <button className="px-6 py-3 text-white bg-green hover:bg-green-700 rounded-lg transition duration-200 shadow-md">
             Get Started
@@ -37,7 +41,10 @@ const About = () => {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row items-center justify-between p-4 py-8 gap-6 rounded-2xl mt-8 bg-lightBackground" data-aos="fade-right" >
+      <div
+        className="flex flex-col md:flex-row items-center justify-between p-4 py-8 gap-6 rounded-2xl mt-8 bg-lightBackground"
+        data-aos="fade-right"
+      >
         <div className="w-full md:w-2/3 overflow-hidden group relative rounded-lg">
           <div className="relative rounded-lg overflow-hidden">
             <img

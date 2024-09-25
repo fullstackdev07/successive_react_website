@@ -12,7 +12,7 @@ const Navbar = () => {
           <img src={logo} alt="engajify logo" className="h-16 w-16" />
           <div className="">
             <p className="font-bold text-darkgreen text-2xl leading-6">Successive</p>
-            <p className="text-green text-lg text-center">Technologies</p>
+            <p className="text-green text-lg">Technologies</p>
           </div>
         </div>
 

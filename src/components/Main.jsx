@@ -9,28 +9,46 @@ const Main = () => {
   const [trekCount1, setTrekCount1] = useState(0);
   const [trekCount2, setTrekCount2] = useState(0);
 
-
   const startCount = (target, setCounter, duration) => {
     let start = 0;
     const end = target;
-    const increment = end / (duration / 50); 
+    const increment = end / (duration / 50);
     const timer = setInterval(() => {
       start += increment;
       if (start >= end) {
-        setCounter(end); 
+        setCounter(end);
         clearInterval(timer);
       } else {
-        setCounter(Math.round(start)); 
+        setCounter(Math.round(start));
       }
-    }, 50); 
+    }, 50);
   };
 
-
-  useEffect(() => {
+  function startCounter() {
     startCount(80, setGrammarlyCount, 2000);
     startCount(1002, setTrekCount1, 2500);
-    startCount(2, setTrekCount2, 2000); 
-  }, []);
+    startCount(2, setTrekCount2, 2000);
+  }
+
+  useEffect(() => {
+    setTimeout(() => {
+        const countsection = document.getElementById("js-section");
+        const observer = new IntersectionObserver(
+          (entries, observer) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                startCounter();
+              }
+            });
+          },
+          { threshold: 0.5 }
+        );
+    
+        observer.observe(countsection);
+      }, 0);
+  },[])
+  
+
   return (
     <article className="flex items-center justify-center flex-col max-w-7xl mx-auto mt-14 px-6 rounded-2xl">
       <div className="font-bold text-center mb-4">
@@ -84,7 +102,10 @@ const Main = () => {
         </button>
       </div>
 
-      <div className="flex flex-col md:flex-row items-center justify-between p-6 mt-8">
+      <div
+        className="flex flex-col md:flex-row items-center justify-between p-6 mt-8"
+        id="js-section"
+      >
         <div className="w-full md:w-1/3 border-b md:border-b-0 md:border-r border-green text-center p-6">
           <h1 className="text-green text-5xl mt-3 font-bold">
             {grammarlyCount}%+
