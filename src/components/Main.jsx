@@ -65,7 +65,7 @@ const Main = () => {
                 </h1>
             </div>
             <div data-aos="fade-left">
-                <p className="text-center text-gray-700 mb-4 px-4 max-w-2xl">
+                <p className="text-center text-xl text-gray-700 mb-4 px-4 max-w-2xl">
                     Dominate the target market with a software development team of
                     unrivalled industry experts by your side
                 </p>
@@ -105,7 +105,7 @@ const Main = () => {
                 id="js-section"
             >
                 <div className="w-full md:w-1/3 border-b md:border-b-0 md:border-r border-green text-center p-6">
-                    <h1 className="text-green text-5xl mt-3 font-bold">
+                    <h1 className="text-green text-7xl mt-3 font-bold">
                         {specialists}+
                     </h1>
                     <p className="w-full md:w-64 mx-auto mt-3">
@@ -118,7 +118,7 @@ const Main = () => {
                 </div>
 
                 <div className="w-full md:w-1/3 border-b md:border-b-0 md:border-r border-green text-center p-6 mt-6 md:mt-0">
-                    <h1 className="text-green text-5xl mt-3 font-bold">{experience}+</h1>
+                    <h1 className="text-green text-7xl mt-3 font-bold">{experience}+</h1>
                     <p className="w-full md:w-64 mx-auto mt-3">
                         years of experience
                     </p>
@@ -126,7 +126,7 @@ const Main = () => {
                 </div>
 
                 <div className="w-full md:w-1/3 text-center p-6 mt-6 md:mt-0">
-                    <h1 className="text-green text-5xl mt-3 font-bold">{projectsdelivered}+</h1>
+                    <h1 className="text-green text-7xl mt-3 font-bold">{projectsdelivered}+</h1>
                     <p className="w-full md:w-64 mx-auto mt-3">
                         projects delivered
                     </p>
