@@ -6,25 +6,25 @@ import Insights from "./components/Insights";
 import Main from "./components/Main";
 import EnterPrise from "./components/EnterPrise";
 import Footer from "./components/Footer";
-import './App.css'
+import "./App.css";
 const App = () => {
   return (
     <div
       className="w-full h-full"
-      style={{background: "-webkit-linear-gradient(45deg, hsla(172, 17%, 83%, 1) 18%, hsla(203, 19%, 92%, 1) 55%, hsla(161, 19%, 74%, 1) 100%)"
+      style={{
+        background:
+          "background: -webkit-linear-gradient(90deg, hsla(134, 18%, 76%, 1) 1%, hsla(146, 18%, 84%, 1) 73%, hsla(133, 18%, 75%, 1) 93%)",
       }}
     >
       <Navbar />
-      <About/>
-      <Article/>
-      <div style={{
-        background: "-moz-linear-gradient(45deg, hsla(158, 20%, 74%, 1) 6%, hsla(192, 19%, 89%, 1) 66%)"
-      }}>
-      <Insights/>
-      <Main/>
-      <EnterPrise/>
-      </div>
-      <Footer/>
+      <About />
+      <Article />
+
+      <Insights />
+      <Main />
+      <EnterPrise />
+
+      <Footer />
     </div>
   );
 };

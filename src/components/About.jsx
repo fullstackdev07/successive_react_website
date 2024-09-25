@@ -8,7 +8,7 @@ import shopping from "../assets/shopping.png";
 
 const About = () => {
     return (
-        <div className="flex items-center flex-col mt-8 md:mt-16 px-4">
+        <div className="flex items-center flex-col mt-8 md:mt-14 px-4">
             <div>
                 <h1 className="text-3xl md:text-5xl font-bold max-w-xl text-center">
                     Grow Your Business{" "}
@@ -30,20 +30,20 @@ const About = () => {
                     </button>
                 </div>
                
-                <div className="mt-4 md:mt-0 flex items-center">
+                <div className="mt-2 md:mt-0 flex items-center">
                     <img src={rating} alt="Rating" className="h-6 md:h-8" />
                 </div>
-                <div className="mt-4 md:mt-0 flex items-center">
+                <div className="mt-2 md:mt-0 flex items-center">
                     <img src={TrustPilot} alt="TrustPilot" className="h-6 md:h-8" />
                 </div>
             </div>
 
-            <div className="flex flex-col md:flex-row items-center justify-between p-10 gap-6 rounded-lg mt-20 bg-lightBackground">
-                <div className="w-full md:w-2/5">
+            <div className="flex flex-col md:flex-row items-center justify-between p-10 gap-6 rounded-lg mt-14 bg-lightBackground">
+                <div className="w-full md:w-2/5 overflow-hidden">
                     <img
                         src={Instagram}
                         alt="Instagram"
-                        className="rounded-lg w-full h-[25rem] object-cover"
+                        className="rounded-lg w-full h-96 object-cover"
                     />
                 </div>
                 <div className="w-full md:w-1/3">

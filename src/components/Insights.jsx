@@ -19,7 +19,7 @@ const Insights = () => {
   return (
     <article className="flex items-center justify-center flex-col max-w-7xl mx-auto mt-20 px-4 bg-green rounded-2xl">
       <div className="flex flex-wrap items-center justify-center 
-      gap-4 px-6 py-1 mt-4 backdrop-blur-sm bg-white/30 rounded-2xl">
+      gap-4 px-6 py-2 mt-6 backdrop-blur-sm bg-white/30 rounded-2xl">
         {buttons.map((button, index) => (
           <button
             key={index}
@@ -31,7 +31,7 @@ const Insights = () => {
         ))}
       </div>
 
-      <div className="flex flex-col md:flex-row mt-10 p-6 px-8 md:px-28 rounded-lg">
+      <div className="flex flex-col md:flex-row mt-2 p-6 px-8 md:px-28 rounded-lg">
         <div className ="md:w-1/2 w-full flex justify-center items-center mb-6 md:mb-0 h-56 md:h-96 bg-darkgreen rounded-xl">
           <h1 className="text-4xl md:text-5xl font-bold text-white">
             Placeholder

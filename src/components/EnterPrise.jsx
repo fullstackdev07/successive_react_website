@@ -5,7 +5,7 @@ import awards from "../assets/awards.png";
 const EnterPrise = () => {
     return (
         <div>
-            <article className="flex items-center justify-center flex-col max-w-7xl mx-auto mt-20 px-4 bg-mediumgreen rounded-xl p-4 space-y-8">
+            <article className="flex items-center justify-center flex-col max-w-7xl mx-auto mt-10 px-4 bg-mediumgreen rounded-xl p-4 space-y-4">
 
                 <div>
                     <h1 className="text-3xl md:text-5xl max-w-lg font-extrabold text-center leading-tight">
@@ -41,9 +41,9 @@ const EnterPrise = () => {
 
 
             </article>
-            <div className="flex items-center justify-center flex-col max-w-7xl mx-auto mt-20 px-4 rounded-xl p-6 space-y-8 text-center">
+            <div className="flex items-center justify-center flex-col max-w-7xl mx-auto mt-10 px-4 rounded-xl p-6 space-y-8 text-center">
                 <div>
-                    <h1 className="font-bold text-4xl max-w-xl">Drive Smarter, faster business impact from social media.</h1>
+                    <h1 className="font-bold text-3xl md:text-5xl max-w-2xl">Drive Smarter, faster business impact from social media.</h1>
                 </div>
                 <div>
                     <button className="px-6 py-2 text-white bg-green hover:bg-green-700 rounded-lg hover:bg-green-700 transition duration-200">

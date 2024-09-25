@@ -25,8 +25,8 @@ const cards = [
 
 const Article = () => {
   return (
-    <article className="flex items-center justify-center flex-col max-w-7xl mx-auto mt-20 px-4 bg-darkgray rounded-xl p-10">
-      <div className="text-center p-6 rounded-lg">
+    <article className="flex items-center justify-center flex-col max-w-7xl mx-auto mt-14 px-8 bg-darkgray rounded-xl p-8">
+      <div className="text-center p-4 rounded-lg">
         <h1 className="text-3xl md:text-5xl font-bold mx-auto">
           Driving <span className="text-lightpink underline">Business</span>{" "}
           Impact
