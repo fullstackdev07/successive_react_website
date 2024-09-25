@@ -17,19 +17,19 @@ const Main = () => {
     const timer = setInterval(() => {
       start += increment;
       if (start >= end) {
-        setCounter(end); // Ensure the final value is exact
+        setCounter(end); 
         clearInterval(timer);
       } else {
-        setCounter(Math.round(start)); // Round to display an integer
+        setCounter(Math.round(start)); 
       }
-    }, 50); // Update every 50ms
+    }, 50); 
   };
 
-  // Start counting when the component mounts
+
   useEffect(() => {
-    startCount(80, setGrammarlyCount, 2000); // Count to 80 in 2 seconds
-    startCount(1002, setTrekCount1, 2500); // Count to 1002 in 2.5 seconds
-    startCount(2, setTrekCount2, 2000); // Count to 2 in 2 seconds
+    startCount(80, setGrammarlyCount, 2000);
+    startCount(1002, setTrekCount1, 2500);
+    startCount(2, setTrekCount2, 2000); 
   }, []);
   return (
     <article className="flex items-center justify-center flex-col max-w-7xl mx-auto mt-14 px-6 rounded-2xl">
