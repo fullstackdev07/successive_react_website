@@ -1,20 +1,21 @@
+
 .js-underline {
-    position: relative;
-  }
-  
-  .js-underline:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    border-top: solid 3px #317159; 
-    left: 0;
-    bottom: -8px;
-    border-radius: 50%; 
-    height: 8px; 
-    transform: scaleX(0); 
-    transition: transform 0.3s ease; 
-  }
-  
-  .js-underline:after {
-    transform: scaleX(1); 
-  }
+  position: relative;
+}
+
+.js-underline:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  border-top: solid 3px #317159;
+  left: 0;
+  bottom: -8px;
+  border-radius: 50%;
+  height: 8px;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.js-underline:after {
+  transform: scaleX(1);
+}
