@@ -25,7 +25,7 @@ const cards = [
 
 const Article = () => {
   return (
-    <article className="flex items-center justify-center flex-col max-w-7xl mx-auto mt-14 px-8 bg-darkgray rounded-xl p-8">
+    <article className="flex items-center justify-center flex-col max-w-7xl mx-auto mt-14 px-8 bg-darkgray rounded-xl p-8" data-aos="fade-left">
       <div className="text-center p-4 rounded-lg">
         <h1 className="text-3xl md:text-5xl font-bold mx-auto">
           Driving <span className="text-lightpink underline">Business</span>{" "}
@@ -37,7 +37,7 @@ const Article = () => {
         Extract Real Business Value, Strengthen Your Market Position And Drive
         Revenue-Quickly.
       </p>
-      <div className="mt-6">
+      <div className="mt-6" data-aos="fade-right">
         <div className="flex flex-col md:flex-row items-center justify-around gap-6">
           {cards.map((card, index) => (
             <div

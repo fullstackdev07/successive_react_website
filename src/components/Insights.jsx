@@ -17,7 +17,7 @@ const Insights = () => {
   ];
 
   return (
-    <article className="flex items-center justify-center flex-col max-w-7xl mx-auto mt-20 px-4 bg-green rounded-2xl">
+    <article className="flex items-center justify-center flex-col max-w-7xl mx-auto mt-20 px-4 bg-green rounded-2xl" data-aos="fade-right">
       <div className="flex flex-wrap items-center justify-center 
       gap-4 px-6 py-2 mt-6 backdrop-blur-sm bg-white/30 rounded-2xl">
         {buttons.map((button, index) => (
