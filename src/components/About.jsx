@@ -8,7 +8,7 @@ import shopping from "../assets/shopping.png";
 
 const About = () => {
   return (
-    <div className="flex items-center flex-col mt-8 md:mt-14 px-2" >
+    <div className="flex items-center flex-col mt-8 md:mt-14 px-2">
       <div>
         <h1 className="text-3xl md:text-5xl font-bold max-w-xl text-center" data-aos="fade-right">
           Grow Your Business{" "}
@@ -37,7 +37,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row items-center justify-between p-4 py-8 gap-6 rounded-lg mt-8 bg-lightBackground" data-aos="fade-right">
+      <div className="flex flex-col md:flex-row items-center justify-between p-4 py-8 gap-6 rounded-2xl mt-8 bg-lightBackground" data-aos="fade-right" >
         <div className="w-full md:w-2/3 overflow-hidden group relative rounded-lg">
           <div className="relative rounded-lg overflow-hidden">
             <img

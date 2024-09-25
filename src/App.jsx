@@ -18,7 +18,7 @@ const App = () => {
       className="w-full h-full"
       style={{
         background:
-          " -webkit-linear-gradient(45deg, hsla(206, 26%, 95%, 1) 75%, hsla(133, 18%, 75%, 1) 86%)",
+          "-webkit-linear-gradient(45deg, hsla(133, 18%, 75%, 1) 62%, hsla(180, 18%, 93%, 1) 78%, hsla(135, 19%, 75%, 1) 100%)",
       }}
     >
       <Navbar />
