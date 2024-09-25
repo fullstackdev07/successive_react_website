@@ -4,7 +4,7 @@ import awards from "../assets/awards.png";
 
 const EnterPrise = () => {
     return (
-        <div>
+        <div className="mx-4">
             <article className="flex items-center justify-center flex-col max-w-7xl mx-auto mt-10 px-4 bg-mediumgreen rounded-xl p-4 space-y-4" data-aos="fade-left">
 
                 <div>

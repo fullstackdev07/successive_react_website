@@ -10,15 +10,17 @@ const About = () => {
   return (
     <div className="flex items-center flex-col mt-8 md:mt-14 px-2">
       <div>
-        <h1
-          className="text-4xl md:text-6xl font-extrabold max-w-3xl mx-auto text-center leading-tight text-gray-900"
+        <div
+          className="text-4xl md:text-5xl font-extrabold max-w-4xl mx-auto text-center leading-tight text-gray-900"
           data-aos="fade-right"
         >
-          We help our clients{" "}
-          <span className="text-lightpink font-extrabold underline">design</span>{" "} &amp;{" "}
+            {/* We help our clients design, build & grow exceptional digital solutions */}
+        <h1>We help our clients{" "}</h1>  
+          <span className="text-lightpink font-extrabold underline">design {" "},</span>{" "} 
+          <span className="text-lightpink font-extrabold underline">build</span>{" "}&amp;{" "}
           <span className="text-lightpink font-extrabold underline">grow</span>{" "}
-          exceptional digital solutions.
-        </h1>
+            <h1>exceptional digital solutions.</h1>  
+        </div>
         <p className="text-center mt-4 text-sm md:text-base">
           Ultra Premium White Glove Service...
         </p>
