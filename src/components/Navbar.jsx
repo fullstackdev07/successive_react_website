@@ -10,8 +10,8 @@ const Navbar = () => {
       <div className="flex items-center justify-between p-4 max-w-7xl mx-auto">
         <div className="flex items-center space-x-2">
           <img src={logo} alt="engajify logo" className="h-16 w-16" />
-          <div className="leading-none">
-            <p className="font-bold text-darkgreen text-2xl">Successive</p>
+          <div className="">
+            <p className="font-bold text-darkgreen text-2xl leading-6">Successive</p>
             <p className="text-green text-lg">Technologies.</p>
           </div>
         </div>
