@@ -1,0 +1,34 @@
+{
+    "title": "Get in Touch",
+    "contactUs": {
+        "label": "Contact us",
+        "description": "Whether you have a project in mind, a challenge or just an Idea of a Start-up? Get in touch and we'll schedule a meeting for you to make your dreams live."
+    },
+    "contactDetails": [
+        {
+            "label": "Contact No",
+            "value": "994948148"
+        },
+        {
+            "label": "Website",
+            "value": "www.helloworld.com"
+        },
+        {
+            "label": "Email ID",
+            "value": "contactus@starinfotech.co.nz"
+        },
+        {
+            "label": "Residence",
+            "value": "6, Barkes Place, Mount Roskill, Auckland, 1041"
+        }
+    ],
+    "form": {
+        "emailPlaceholder": "Enter Your Email",
+        "namePlaceholder": "Enter Your Name",
+        "messagePlaceholder": "Enter Your Message",
+        "submitButtonText": "Submit",
+        "emailIconClass": "bi bi-envelope",
+        "userIconClass": "bi bi-person",
+        "messageIconClass": "bi bi-chat-left"
+    }
+}

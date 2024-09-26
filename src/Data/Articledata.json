@@ -1,0 +1,25 @@
+{
+  "title": {
+    "main": "Driving ",
+    "highlighted": "Business",
+    "another": "Impact"
+  },
+  "description": "Sprout's Unified Social Media Management Platform Enables Your Team To Extract Real Business Value, Strengthen Your Market Position And Drive Revenue-Quickly.",
+  "cards": [
+    {
+      "icon": "bi bi-person-check",
+      "title": "Real Engaged Followers",
+      "description": "Get the insights your team has been waiting for - now. You won't spend months onboarding, wondering how much of your budget went to learning how to use our platform."
+    },
+    {
+      "icon": "bi bi-clock-history",
+      "title": "Your 24/7 Social Media Assistant",
+      "description": "Accelerate business processes with AI-powered workflows designed to save marketers valuable time, provide better access to actionable data, and allow your team to focus on growth."
+    },
+    {
+      "icon": "bi bi-person-gear",
+      "title": "1 On 1 Account Management",
+      "description": "Elevate your business without rebuilding your tech stack. Our global Salesforce partnership and social network integrations make it easy to work within your current processes."
+    }
+  ]
+}

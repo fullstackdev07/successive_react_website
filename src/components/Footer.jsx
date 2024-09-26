@@ -28,7 +28,7 @@ const Footer = () => {
           <p className="text-white underline">Contact Us</p>
 
           <div className="flex space-x-4 text-3xl text-white">
-            <FaFacebook />
+          
             <FaInstagramSquare />
             <FaSquareThreads />
             <FaYoutube />

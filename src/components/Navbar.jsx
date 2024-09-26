@@ -11,7 +11,9 @@ const Navbar = () => {
         <div className="flex items-center">
           <img src={logo} alt="engajify logo" className="h-16 w-16" />
           <div className="">
-            <p className="font-bold text-darkgreen text-2xl leading-6">Successive</p>
+            <p className="font-bold text-darkgreen text-2xl leading-6">
+              Successive
+            </p>
             <p className="text-green text-lg">Technologies</p>
           </div>
         </div>
@@ -37,9 +39,11 @@ const Navbar = () => {
         </div>
 
         <div className="flex items-center gap-6">
+          <a href="#contact">
           <button className="px-6 py-2 text-white bg-green hover:bg-green-700 rounded-lg hover:bg-green-700 transition duration-200">
-            Get Started
+            Let's Talk
           </button>
+          </a>
           <div
             className="text-3xl md:hidden cursor-pointer"
             onClick={() => setToggle(!toggle)}
@@ -50,11 +54,10 @@ const Navbar = () => {
       </div>
 
       <div
-        className={`md:hidden w-full bg-green-600 transition-all duration-300 ease-in-out absolute bg-green  ${
-          toggle ? "max-h-screen" : "max-h-0 overflow-hidden"
-        }`}
+        className={`md:hidden w-full bg-green z-10 transition-all duration-300 ease-in-out absolute ${toggle ? "max-h-screen" : "max-h-0 overflow-hidden"
+          }`}
       >
-        <ul className="flex flex-col items-center p-4 text-white bg-green">
+        <ul className="flex flex-col items-center p-4 text-white">
           <li className="py-2 border-b w-full text-center hover:bg-green-700 transition duration-200">
             Home
           </li>

@@ -1,0 +1,28 @@
+{
+    "headerText": "Delivering Innovative, Growth-Focused App and Web Development Solutions",
+    "description": "Dominate the target market with a software development team of unrivalled industry experts by your side.",
+    "counters": [
+      {
+        "id": 1,
+        "title": "specialists on board",
+        "value": 100,
+        "image": "/src/assets/seniordeveloper.png",
+        "altText": "Senior Developer"
+      },
+      {
+        "id": 2,
+        "title": "years of experience",
+        "value": 16,
+        "image": "/src/assets/service.png",
+        "altText": "Service"
+      },
+      {
+        "id": 3,
+        "title": "projects delivered",
+        "value": 260,
+        "image": "/src/assets/delivered.png",
+        "altText": "Delivered"
+      }
+    ]
+  }
+  

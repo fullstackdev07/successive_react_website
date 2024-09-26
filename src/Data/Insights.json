@@ -1,0 +1,41 @@
+{
+    "buttons": [
+        {
+            "icon": "bi bi-facebook",
+            "label": "Facebook"
+        },
+        {
+            "icon": "bi bi-envelope-fill",
+            "label": "Engagement"
+        },
+        {
+            "icon": "bi bi-telegram",
+            "label": "Publishing"
+        },
+        {
+            "icon": "bi bi-graph-up",
+            "label": "Analytics"
+        },
+        {
+            "icon": "bi bi-soundwave",
+            "label": "Listening"
+        },
+        {
+            "icon": "bi bi-megaphone",
+            "label": "Advocacy"
+        },
+        {
+            "icon": "bi bi-person-lines-fill",
+            "label": "Influencer Marketing"
+        }
+    ],
+    "header": "Discover Essential Insights",
+    "description": "Uncover key learnings from millions of unfiltered thoughts, feelings, and opinions to enhance your current strategy and guide future action.",
+    "insights": [
+        "Automatically sift through billions of data points to zero in on trends, insights, and key learnings.",
+        "Generate AI summaries of long-form messages to quickly and easily understand insights.",
+        "Surface notable conversation trends in your key topics with AI-powered sentence insights."
+    ],
+    "buttonText": "Explore Our Listening Features",
+    "weblink" : "https://successivetechnologies.com"
+}
