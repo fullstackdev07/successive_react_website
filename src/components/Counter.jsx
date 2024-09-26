@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import seniordeveloper from "../assets/seniordeveloper.png";
 import service from "../assets/service.png";
 import delivered from "../assets/delivered.png";
-import counterData from "../Data/counterData.json"; 
+import counterData from "../Data/CounterData.json"; 
 
 const images = {
   seniordeveloper,
