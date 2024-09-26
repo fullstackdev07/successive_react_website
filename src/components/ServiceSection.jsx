@@ -1,8 +1,15 @@
-import serviceSectionContent from "../Data/Servicesectiondata.json"
-
+import serviceSectionContent from "../Data/Servicesectiondata.json";
+import family from "../assets/family.png";
+import awards from "../assets/awards.png";
 
 const ServiceSection = () => {
-    const { sectionTitle, description, images, callToAction } = serviceSectionContent;
+    const { sectionTitle, description, callToAction } = serviceSectionContent;
+
+    // Assuming you want to include both family and awards images
+    const images = [
+        { src: family, alt: "Family"}, // Example class
+        { src: awards, alt: "Awards"}, // Example class
+    ];
 
     return (    
         <div className="mx-4">
@@ -23,7 +30,7 @@ const ServiceSection = () => {
                         <img
                             src={image.src}
                             alt={image.alt}
-                            className={image.className}
+                            // className={image.className}
                         />
                     </div>
                 ))}
