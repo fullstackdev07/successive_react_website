@@ -1,6 +1,41 @@
 import React from "react";
-import aboutContent from "../Data/Aboutdata.json";
+import rating from "../assets/rating.png";
+import TrustPilot from "../assets/TrustPilot.png";
+import Instagram from "../assets/Instagram.png";
+import Nature from "../assets/Nature.png";
+import Curved from "../assets/curved.png";
+import shopping from "../assets/shopping.png";
 
+const aboutContent = {
+  header: {
+    title: [
+      "We help our clients ",
+      { text: "design , build", className: "text-lightpink font-extrabold underline" },
+      " &amp; ",
+      { text: "grow", className: "text-lightpink font-extrabold underline" },
+      " exceptional digital solutions"
+    ]
+  },
+  description: "Ultra Premium White Glove Service...",
+  button: {
+    text: "Get Started",
+    className: "px-6 py-3 text-white bg-green hover:bg-green-700 rounded-lg transition duration-200 shadow-md"
+  },
+  ratings: [
+    { src: rating, alt: "Rating", className: "h-6 md:h-8" },
+    { src: TrustPilot, alt: "TrustPilot", className: "h-6 md:h-8" }
+  ],
+  images: [
+    { src: Instagram, alt: "Instagram", overlayText: "Hello World" },
+    { src: Nature, alt: "Nature", overlayText: "Hello World" },
+    { src: shopping, alt: "Shopping" }
+  ],
+  curvedImage: {
+    src: Curved,
+    alt: "Curved",
+    className: "h-12 md:h-20"
+  }
+};
 
 const About = () => {
   return (
@@ -16,20 +51,14 @@ const About = () => {
               {item.text}
             </span>
           ))}
-          <h1>
-            {aboutContent.header.title[aboutContent.header.title.length - 1]}
-          </h1>
+          <h1>{aboutContent.header.title[aboutContent.header.title.length - 1]}</h1>
         </div>
         <p className="text-center mt-4 text-sm md:text-base">
           {aboutContent.description}
         </p>
       </div>
       <div className="ml-2 flex items-center relative right-80">
-        <img
-          src={aboutContent.curvedImage.src}
-          alt={aboutContent.curvedImage.alt}
-          className="h-20"
-        />
+        <img src={aboutContent.curvedImage.src} alt={aboutContent.curvedImage.alt} className={aboutContent.curvedImage.className} />
       </div>
       <div className="flex items-center gap-4 justify-center md:justify-start">
         <div>
@@ -39,12 +68,8 @@ const About = () => {
         </div>
 
         {aboutContent.ratings.map((rating, index) => (
-          <div key={index} className="md:mt-0 flex items-center">
-            <img
-              src={rating.src}
-              alt={rating.alt}
-              className="h-8"
-            />
+          <div key={index} className="mt-2 md:mt-0 flex items-center">
+            <img src={rating.src} alt={rating.alt} className={rating.className} />
           </div>
         ))}
       </div>
@@ -54,10 +79,7 @@ const About = () => {
         data-aos="fade-right"
       >
         {aboutContent.images.map((image, index) => (
-          <div
-            key={index}
-            className="w-full md:w-1/3 overflow-hidden group relative"
-          >
+          <div key={index} className="w-full md:w-1/3 overflow-hidden group relative">
             <div className="relative rounded-lg overflow-hidden h-full group">
               <img
                 src={image.src}
