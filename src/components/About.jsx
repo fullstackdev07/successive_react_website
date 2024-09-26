@@ -10,7 +10,7 @@ const aboutContent = {
   header: {
     title: [
       "We help our clients ",
-      { text: "design , build", className: "text-lightpink font-extrabold underline" },
+      { text: "design , build & ", className: "text-lightpink font-extrabold underline" },
       " &amp; ",
       { text: "grow", className: "text-lightpink font-extrabold underline" },
       " exceptional digital solutions"
