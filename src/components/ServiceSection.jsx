@@ -1,8 +1,10 @@
 import serviceSectionContent from "../Data/Servicesectiondata.json"
+import family from "../assets/family.png"
+
 const ServiceSection = () => {
     const { sectionTitle, description, images, callToAction } = serviceSectionContent;
 
-    return (
+    return (    
         <div className="mx-4">
             <article className="flex items-center justify-center flex-col max-w-7xl mx-auto mt-10 px-4 bg-mediumgreen rounded-xl p-4 space-y-4" data-aos="fade-left">
                 <div>
