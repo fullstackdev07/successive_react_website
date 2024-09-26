@@ -1,5 +1,14 @@
 import React, { useEffect, useState } from "react";
-import counterData from "../Data/CounterData.json"; 
+import seniordeveloper from "../assets/seniordeveloper.png";
+import service from "../assets/service.png";
+import delivered from "../assets/delivered.png";
+import counterData from "../data/counterData.json"; 
+
+const images = {
+  seniordeveloper,
+  service,
+  delivered
+};
 
 const Counter = () => {
   const [specialists, setspecialists] = useState(0);
@@ -46,7 +55,7 @@ const Counter = () => {
 
   return (
     <article className="flex items-center justify-center flex-col max-w-7xl mx-auto mt-14 px-6 rounded-2xl">
-      
+      {/* Header Section */}
       <div className="font-bold text-center mb-4">
         <div className="flex flex-wrap justify-center items-center md:px-0">
           <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl">
@@ -55,14 +64,14 @@ const Counter = () => {
         </div>
       </div>
 
-     
+      {/* Description Section */}
       <div>
         <p className="text-center text-xl text-gray-700 mb-4 px-4 max-w-2xl">
           {counterData.description}
         </p>
       </div>
 
-     
+      {/* Counter Section */}
       <div
         className="flex flex-col md:flex-row items-center justify-between p-6 mt-8"
         id="js-section"
@@ -86,7 +95,7 @@ const Counter = () => {
             <div className="flex items-center justify-center text-green text-3xl mt-3">
               <span className="ml-2">
                 <img
-                  src={counter.image} 
+                  src={images[counter.image.split(".")[0]]}
                   alt={counter.altText}
                   className="w-20 h-20 object-contain"
                 />

@@ -6,21 +6,21 @@
         "id": 1,
         "title": "specialists on board",
         "value": 100,
-        "image": "/src/assets/seniordeveloper.png",
+        "image": "seniordeveloper.png",
         "altText": "Senior Developer"
       },
       {
         "id": 2,
         "title": "years of experience",
         "value": 16,
-        "image": "/src/assets/service.png",
+        "image": "service.png",
         "altText": "Service"
       },
       {
         "id": 3,
         "title": "projects delivered",
         "value": 260,
-        "image": "/src/assets/delivered.png",
+        "image": "delivered.png",
         "altText": "Delivered"
       }
     ]
