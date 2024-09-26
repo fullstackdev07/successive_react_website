@@ -1,26 +1,25 @@
 {
-    "sectionTitle": {
-      "main": "Enterprise",
-      "highlight": "Solutions",
-      "subTitle": "for social at scale"
+  "sectionTitle": {
+    "main": "In everything we do, we aim to make life easier."
+  },
+  "intro": "At Putti, we build custom web and app solutions that aren’t just the best in tech – they’re also the best fit for you, your business and your customers.",
+  "firstpara": "From business applications to ERP solutions that modernise and streamline your operations, and from award-winning customer apps to complete privacy and security safeguards, we make digital transformations happen.",
+  "secondpara": "At Putti, we simplify the complex.",
+  "images": [
+    {
+      "src": "https://engagify.netlify.app/src/assets/family.png",
+      "alt": "family",
+      "className": "w-full md:w-1/2 object-cover rounded-lg shadow-lg"
     },
-    "description": "Engagify provides a cost-effective way for taking care of our social media needs 24/7 and targets your target audience.",
-    "images": [
-      {
-        "src": "https://engagify.netlify.app/src/assets/family.png",
-        "alt": "family",
-        "className": "w-full md:w-1/2 object-cover rounded-lg shadow-lg"
-      },
-      {
-        "src": "https://engagify.netlify.app/src/assets/awards.png",
-        "alt": "awards",
-        "className": "w-full md:w-1/3 object-contain rounded-lg shadow-lg"
-      }
-    ],
-    "callToAction": {
-      "title": "Let’s start making something awesome!",
-      "buttonText": "Get Started",
-      "buttonClass": "px-6 py-2 text-white bg-green hover:bg-green-700 rounded-lg transition duration-200"
+    {
+      "src": "https://engagify.netlify.app/src/assets/awards.png",
+      "alt": "awards",
+      "className": "w-full md:w-1/3 object-contain rounded-lg shadow-lg"
     }
+  ],
+  "callToAction": {
+    "title": "Let’s start making something awesome!",
+    "buttonText": "Get Started",
+    "buttonClass": "px-6 py-2 text-white bg-green hover:bg-green-700 rounded-lg transition duration-200"
   }
-  
+}

@@ -4,23 +4,23 @@
     "counters": [
       {
         "id": 1,
-        "title": "specialists on board",
-        "value": 100,
-        "image": "seniordeveloper.png",
+        "title": "Specialists on board",
+        "value": 50,
+        "image": "/seniordeveloper.png",
         "altText": "Senior Developer"
       },
       {
         "id": 2,
         "title": "years of experience",
-        "value": 16,
-        "image": "service.png",
+        "value": 10,
+        "image": "/service.png",
         "altText": "Service"
       },
       {
         "id": 3,
         "title": "projects delivered",
-        "value": 260,
-        "image": "delivered.png",
+        "value": 70,
+        "image": "/delivered.png",
         "altText": "Delivered"
       }
     ]
