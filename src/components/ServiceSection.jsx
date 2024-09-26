@@ -1,5 +1,5 @@
 import serviceSectionContent from "../Data/Servicesectiondata.json"
-import family from "../assets/family.png"
+
 
 const ServiceSection = () => {
     const { sectionTitle, description, images, callToAction } = serviceSectionContent;
