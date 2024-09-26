@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import counterData from "../data/counterData.json"; 
+import counterData from "../Data/counterData.json"; 
 
 const Counter = () => {
   const [specialists, setspecialists] = useState(0);

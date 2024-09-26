@@ -1,5 +1,5 @@
 import React from "react";
-import contactContent from "../data/contactContent.json";
+import contactContent from "../Data/contactContent.json";
 
 const Contact = () => {
     const { title, contactUs, contactDetails, form } = contactContent;

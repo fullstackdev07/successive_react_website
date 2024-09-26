@@ -1,5 +1,6 @@
 import React from "react";
-import Articledata from "../data/Articledata.json"; 
+import Articledata from "../Data/Articledata.json"; 
+
 
 const Article = () => {
   const { title, description, cards } = Articledata;

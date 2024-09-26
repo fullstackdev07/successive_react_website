@@ -1,6 +1,7 @@
 import React from "react";
 import aboutContent from "../Data/Aboutdata.json";
 
+
 const About = () => {
   return (
     <div className="flex items-center flex-col mt-8 md:mt-14 px-2">
