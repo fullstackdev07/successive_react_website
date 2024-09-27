@@ -45,7 +45,7 @@ const Navbar = () => {
           </a>
         
           <div
-            className={navbarContent.menuIcon.className}
+            className="text-3xl md:hidden cursor-pointer"
             aria-label={navbarContent.menuIcon.ariaLabel}
             onClick={() => setToggle(!toggle)}
           >

@@ -30,7 +30,7 @@ const About = () => {
         <img
           src={aboutData.curvedImage.src}
           alt={aboutData.curvedImage.alt}
-          className={aboutData.curvedImage.className}
+          className="h-12 md:h-20"
         />
       </div>
 
