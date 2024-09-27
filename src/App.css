@@ -25,7 +25,7 @@
   );
 }
 .bg-about-image{
-  /* background-image: url('/filters_brightness(-10).webp'); */
+  background-image: url('/filters_brightness(-10).webp');
   height: 100%;
   width: 100%;
   object-fit: contain;
