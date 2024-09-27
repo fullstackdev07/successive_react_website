@@ -49,7 +49,7 @@ const Counter = () => {
       <div className="font-bold text-center mb-4">
         <div className="flex flex-wrap justify-center items-center md:px-0">
           <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl" data-aos="fade-left">
-            {counterData.headerText}
+            Delivering Innovative, Growth-Focused <br /> App and Web Development <br /> Solutions
           </h1>
         </div>
       </div>
@@ -66,9 +66,8 @@ const Counter = () => {
         {counterData.counters.map((counter, index) => (
           <div
             key={counter.id}
-            className={`w-full md:w-1/3 text-center p-6 ${
-              index < counterData.counters.length - 1 ? "border-b md:border-b-0 md:border-r border-green" : ""
-            }`}
+            className={`w-full md:w-1/3 text-center p-6 ${index < counterData.counters.length - 1 ? "border-b md:border-b-0 md:border-r border-green" : ""
+              }`}
           >
             <h1 className="text-green text-7xl mt-3 font-bold">
               {index === 0 ? specialists : index === 1 ? experience : projectsDelivered}+
