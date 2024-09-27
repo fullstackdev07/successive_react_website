@@ -3,12 +3,12 @@
       "logo": {
         "src": "/logo.png", 
         "alt": "Company Logo",
-        "className": "h-16 w-16"
+        "className": "h-12 w-12 md:h-16 md:w-16"
       },
       "title": "Successive",
       "subtitle": "Technologies",
-      "titleClassName": "font-bold text-darkgreen md:text-2xl leading-6",
-      "subtitleClassName": "text-green text-lg"
+      "titleClassName": "font-bold text-darkgreen md:text-2xl md:leading-6",
+      "subtitleClassName": "text-green mt-[-0.7rem] md:text-2xl"
     },
     "navItems": [
       {
