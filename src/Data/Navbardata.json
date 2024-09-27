@@ -13,23 +13,28 @@
     "navItems": [
       {
         "text": "Home",
-        "className": "hover:text-green-600 transition duration-200 cursor-pointer"
+        "className": "hover:text-green-600 transition duration-200 cursor-pointer",
+        "href" : "#contact"
       },
       {
         "text": "AI Social Assistant",
-        "className": "hover:text-green-600 transition duration-200 cursor-pointer"
+        "className": "hover:text-green-600 transition duration-200 cursor-pointer",
+        "href" : "#contact"
       },
       {
         "text": "Platform",
-        "className": "hover:text-green-600 transition duration-200 cursor-pointer"
+        "className": "hover:text-green-600 transition duration-200 cursor-pointer",
+        "href" : "#contact"
       },
       {
         "text": "Resources",
-        "className": "hover:text-green-600 transition duration-200 cursor-pointer"
+        "className": "hover:text-green-600 transition duration-200 cursor-pointer",
+        "href" : "#contact"
       },
       {
         "text": "Pricing",
-        "className": "hover:text-green-600 transition duration-200 cursor-pointer"
+        "className": "hover:text-green-600 transition duration-200 cursor-pointer",
+        "href" : "#contact"
       }
     ],
     "button": {
