@@ -1,5 +1,5 @@
 import React from "react";
-import AboutData from "../Data/AboutData.json"; 
+import aboutData from "../Data/Aboutdata.json"; 
 
 const About = () => {
   return (
@@ -11,26 +11,26 @@ const About = () => {
           data-aos="fade-right"
         >
           
-          <h1>{AboutData.header.title[0]}</h1>
-          {AboutData.header.title.slice(1, -1).map((item, index) => (
+          <h1>{aboutData.header.title[0]}</h1>
+          {aboutData.header.title.slice(1, -1).map((item, index) => (
             <span key={index} className={item.className}>
               {item.text}
             </span>
           ))}
-          <h1>{AboutData.header.title[AboutData.header.title.length - 1]}</h1>
+          <h1>{aboutData.header.title[aboutData.header.title.length - 1]}</h1>
         </div>
       
         <p className="text-center mt-4 text-sm md:text-base">
-          {AboutData.description}
+          {aboutData.description}
         </p>
       </div>
 
     
       <div className="ml-2 flex items-center relative right-80">
         <img
-          src={AboutData.curvedImage.src}
-          alt={AboutData.curvedImage.alt}
-          className={AboutData.curvedImage.className}
+          src={aboutData.curvedImage.src}
+          alt={aboutData.curvedImage.alt}
+          className={aboutData.curvedImage.className}
         />
       </div>
 
@@ -43,14 +43,14 @@ const About = () => {
             <ul className="flex items-center justify-center 
             md:justify-start [&_li]:mx-8 [&_img]:max-w-none 
             animate-infinite-scroll">
-              {AboutData.brandLogos.map((logo, index) => (
+              {aboutData.brandLogos.map((logo, index) => (
                 <li key={index}>
                   <img src={logo.src} alt={logo.alt} />
                 </li>
               ))}
             </ul>
             <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll" aria-hidden="true">
-              {AboutData.brandLogos.map((logo, index) => (
+              {aboutData.brandLogos.map((logo, index) => (
                 <li key={index}>
                   <img src={logo.src} alt={logo.alt} />
                 </li>
@@ -62,7 +62,7 @@ const About = () => {
 
     
       <div className="flex flex-col md:flex-row items-center justify-between p-4 py-8 gap-6 rounded-2xl mt-8 bg-lightBackground" data-aos="fade-right">
-        {AboutData.images.map((image, index) => (
+        {aboutData.images.map((image, index) => (
           <div key={index} className="w-full md:w-1/3 overflow-hidden group relative">
             <div className="relative rounded-lg overflow-hidden h-full group">
               <img
