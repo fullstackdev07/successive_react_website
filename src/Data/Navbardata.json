@@ -1,0 +1,50 @@
+{
+    "brand": {
+      "logo": {
+        "src": "/logo.png", 
+        "alt": "Company Logo",
+        "className": "h-16 w-16"
+      },
+      "title": "Successive",
+      "subtitle": "Technologies",
+      "titleClassName": "font-bold text-darkgreen text-2xl leading-6",
+      "subtitleClassName": "text-green text-lg"
+    },
+    "navItems": [
+      {
+        "text": "Home",
+        "className": "hover:text-green-600 transition duration-200 cursor-pointer"
+      },
+      {
+        "text": "AI Social Assistant",
+        "className": "hover:text-green-600 transition duration-200 cursor-pointer"
+      },
+      {
+        "text": "Platform",
+        "className": "hover:text-green-600 transition duration-200 cursor-pointer"
+      },
+      {
+        "text": "Resources",
+        "className": "hover:text-green-600 transition duration-200 cursor-pointer"
+      },
+      {
+        "text": "Pricing",
+        "className": "hover:text-green-600 transition duration-200 cursor-pointer"
+      }
+    ],
+    "button": {
+      "text": "Let's Talk",
+      "href": "#contact",
+      "className": "px-6 py-2 text-white bg-green hover:bg-green-700 rounded-lg transition duration-200"
+    },
+    "menuIcon": {
+      "className": "text-3xl md:hidden cursor-pointer",
+      "ariaLabel": "Toggle Menu"
+    },
+    "mobileMenu": {
+      "wrapperClassName": "md:hidden w-full bg-green z-10 transition-all duration-300 ease-in-out absolute",
+      "menuClassName": "flex flex-col items-center p-4 text-white",
+      "itemClassName": "py-2 border-b w-full text-center hover:bg-green-700 transition duration-200"
+    }
+  }
+  

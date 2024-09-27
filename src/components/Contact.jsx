@@ -7,7 +7,8 @@ const Contact = () => {
     return (
         <div className="mx-4" id="contact">
             <div
-                className="flex items-center justify-center flex-col md:flex-row max-w-7xl mx-auto mt-10 px-10 bg-lightBackground rounded-3xl shadow-2xl p-10 space-y-8 space-x-4 md:space-y-0"
+                className="flex items-center justify-center flex-col md:flex-row max-w-7xl mx-auto mt-10 mb-10
+             bg-lightBackground rounded-3xl shadow-2xl p-10 space-y-8  md:space-y-8"
                 data-aos="fade-right"
             >
                 <div className="w-full md:w-1/2 text-center text-darkgreen">
@@ -15,17 +16,17 @@ const Contact = () => {
                         {title}
                     </h1>
 
-                    <div className="space-y-6">
+                    <div className="space-y-5">
                         <div className="flex flex-col items-center md:items-start">
                             <label className="text-6xl font-bold text-gray-600">
                                 {contactUs.label}
                             </label>
-                            <p className="text-center md:text-left mt-3">
+                            <p className="text-center md:text-left my-8">
                                 {contactUs.description}
                             </p>
                         </div>
 
-                        <div className="grid grid-cols-2 w-full text-center md:text-left gap-6">
+                        <div className="grid sm:grid-cols-2 w-full text-center md:text-left gap-8">
                             {contactDetails.map((detail, index) => (
                                 <div key={index}>
                                     <label className="text-xl text-ramagreen">{detail.label}</label>

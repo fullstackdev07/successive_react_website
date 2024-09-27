@@ -18,7 +18,7 @@ const Insights = () => {
               className="flex items-center gap-2 py-2 px-4 text-white hover:text-black hover:bg-white rounded-full transition-all duration-300"
             >
               <i className={button.icon}></i>{" "}
-              {/* Render the Bootstrap icon from JSON */}
+             
               {button.label}
             </button>
           ))}
@@ -43,7 +43,7 @@ const Insights = () => {
               {insightsData.insights.map((insight, index) => (
                 <li key={index} className="flex items-start gap-2">
                   <i className="bi bi-check-circle text-white mt-1"></i>{" "}
-                  {/* Check icon for insights */}
+                 
                   <span>{insight}</span>
                 </li>
               ))}

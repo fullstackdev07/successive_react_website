@@ -1,56 +1,40 @@
 {
-    "header": {
-      "title": [
-        "We help our clients ",
-        {
-          "text": "design , build & ",
-          "className": "text-lightpink font-extrabold underline"
-        },
-        "&amp;",
-        {
-          "text": "grow",
-          "className": "text-lightpink font-extrabold underline"
-        },
-        " exceptional digital solutions"
-      ]
-    },
-    "description": "Ultra Premium White Glove Service...",
-    "button": {
-      "text": "Get Started",
-      "className": "px-6 py-3 text-white bg-green hover:bg-green-700 rounded-lg transition duration-200 shadow-md"
-    },
-    "ratings": [
-      {
-        "src": "/src/assets/rating.png",
-        "alt": "Rating",
-        "className": "h-6 md:h-8"
-      },
-      {
-        "src": "/src/assets/TrustPilot.png",
-        "alt": "TrustPilot",
-        "className": "h-6 md:h-8"
-      }
-    ],
-    "images": [
-      {
-        "src": "/src/assets/Instagram.png",
-        "alt": "Instagram",
-        "overlayText": "Hello World"
-      },
-      {
-        "src": "/src/assets/Nature.png",
-        "alt": "Nature",
-        "overlayText": "Hello World"
-      },
-      {
-        "src": "/src/assets/shopping.png",
-        "alt": "Shopping"
-      }
-    ],
-    "curvedImage": {
-      "src": "/src/assets/Curved.png",
-      "alt": "Curved",
-      "className": "h-12 md:h-10"
-    }
-  }
-  
+  "header": {
+    "title": [
+      "We help our clients ",
+      { "text": "design, build & ", "className": "text-lightpink font-extrabold underline" },
+      "& ",
+      { "text": "grow", "className": "text-lightpink font-extrabold underline" },
+      " exceptional digital solutions"
+    ]
+  },
+  "description": "Ultra Premium White Glove Service...",
+  "button": {
+    "text": "Get Started",
+    "className": "px-6 py-3 text-white bg-green hover:bg-green-700 rounded-lg transition duration-200 shadow-md"
+  },
+  "ratings": [
+    { "src": "/rating.png", "alt": "Rating", "className": "h-6 md:h-8" },
+    { "src": "/TrustPilot.png", "alt": "TrustPilot", "className": "h-6 md:h-8" }
+  ],
+  "images": [
+    { "src": "/Instagram.png", "alt": "Instagram", "overlayText": "Hello World" },
+    { "src": "/Nature.png", "alt": "Nature", "overlayText": "Hello World" },
+    { "src": "/shopping.png", "alt": "Shopping" }
+  ],
+  "curvedImage": {
+    "src": "/curved.png",
+    "alt": "Curved",
+    "className": "h-12 md:h-20"
+  },
+  "brandLogos": [
+    { "src": "/facebook.svg", "alt": "Facebook" },
+    { "src": "/disney.svg", "alt": "Disney" },
+    { "src": "/airbnb.svg", "alt": "Airbnb" },
+    { "src": "/apple.svg", "alt": "Apple" },
+    { "src": "/spark.svg", "alt": "Spark" },
+    { "src": "/samsung.svg", "alt": "Samsung" },
+    { "src": "/quora.svg", "alt": "Quora" },
+    { "src": "/sass.svg", "alt": "Sass" }
+  ]
+}
