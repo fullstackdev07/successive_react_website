@@ -1,41 +1,78 @@
 {
     "buttons": [
-        {
-            "icon": "bi bi-facebook",
-            "label": "Facebook"
-        },
-        {
-            "icon": "bi bi-envelope-fill",
-            "label": "Engagement"
-        },
-        {
-            "icon": "bi bi-telegram",
-            "label": "Publishing"
-        },
-        {
-            "icon": "bi bi-graph-up",
-            "label": "Analytics"
-        },
-        {
-            "icon": "bi bi-soundwave",
-            "label": "Listening"
-        },
-        {
-            "icon": "bi bi-megaphone",
-            "label": "Advocacy"
-        },
-        {
-            "icon": "bi bi-person-lines-fill",
-            "label": "Influencer Marketing"
-        }
+      {
+        "icon": "bi bi-lungs-fill",
+        "label": "Healthcare",
+        "category": "Healthcare",
+        "imgSrc" : "/health_now_feature-min.webp", 
+        "description": "Digitize healthcare to enhance its interoperability, automate workflows, and lower operations costs by harnessing a patient-centric and HIPAA-compliant solution.",
+        "insights": [
+          "Healthcare CRM",
+          "EHR & EMR",
+          "Hospital Inventory Management",
+          "Pharmacy Management System",
+          "eDischarge Solution"
+        ]
+      },
+      {
+        "icon": "bi bi-bank",
+        "label": "BFSI",
+        "category": "BFSI",
+        "imgSrc" : "/bfsi.png", 
+        "description": "Developing BFSI-specific software solutions that are immutable, decentralized, and consensus-driven. We adhere to all compliance, making the BFSI industry borderless.",
+        "insights": [
+          "Digital Banking Solutions",
+          "Blockchain Integration",
+          "Risk Management Systems",
+          "Insurance Claims Automation",
+          "Loan Processing Solutions"
+        ]
+      },
+      {
+        "icon": "bi bi-shop",
+        "label": "Retail and eCommerce",
+        "category": "eCommerce",
+        "imgSrc" : "/equitask-feature-scaled.webp", 
+        "description": "Create an omnichannel presence and automate retail business operations. We build a data-driven enterprise software suite to transform the shopping experience.",
+        "insights": [
+          "E-commerce Platform Development",
+          "Omnichannel Solutions",
+          "Customer Behavior Analytics",
+          "Product Lifecycle Management",
+          "Inventory Automation"
+        ]
+      },
+      {
+        "icon": "bi bi-truck",
+        "label": "Supply Chain",
+        "category": "SupplyChain",
+        "imgSrc" : "/logistic.jpg", 
+        "description": "We use IoT, Telematics, and AI in warehouse procedures to deliver high accuracy, track packages, and predict malfunction to increase customer satisfaction.",
+        "insights": [
+          "Real-Time Tracking Solutions",
+          "Warehouse Management Systems",
+          "Fleet Management",
+          "Predictive Analytics",
+          "Logistics Automation"
+        ]
+      },
+      {
+        "icon": "bi bi-person-circle",
+        "label": "CRM Software",
+        "category": "CRMSoftware",
+        "imgSrc" : "/crm.png", 
+        "description": "Empower your business with CRM software that enhances customer relationships, automates tasks, and improves overall communication.",
+        "insights": [
+          "Customer Segmentation",
+          "Sales Automation",
+          "Marketing Integration",
+          "Customer Support Solutions",
+          "Client Retention Analytics"
+        ]
+      }
     ],
     "header": "Discover Essential Insights",
-    "description": "Uncover key learnings from millions of unfiltered thoughts, feelings, and opinions to enhance your current strategy and guide future action.",
-    "insights": [
-        "Automatically sift through billions of data points to zero in on trends, insights, and key learnings.",
-        "Generate AI summaries of long-form messages to quickly and easily understand insights.",
-        "Surface notable conversation trends in your key topics with AI-powered sentence insights."
-    ],
-    "buttonText": "Explore Our Listening Features",
-    "weblink" : "https://successivetechnologies.com"
-}
+    "buttonText": "Learn More",
+    "weblink": "https://www.example.com"
+  }
+  

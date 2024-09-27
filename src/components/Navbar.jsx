@@ -37,7 +37,7 @@ const Navbar = () => {
 
         <div className="flex items-center gap-6">
           <a href={navbarContent.button.href}>
-            <button className={navbarContent.button.className}>
+            <button className="px-6 py-2 text-white bg-green hover:bg-green-700 rounded-lg transition duration-200">
               {navbarContent.button.text}
             </button>
           </a>

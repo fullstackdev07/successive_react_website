@@ -22,19 +22,21 @@
     { "src": "/Nature.png", "alt": "Nature", "overlayText": "Hello World" },
     { "src": "/shopping.png", "alt": "Shopping" }
   ],
+  "bgimage": {
+    "src": "/filters_brightness(-10).webp",
+    "alt": "filters_brightness(-10).webp"
+  },
   "curvedImage": {
     "src": "/curved.png",
     "alt": "Curved",
     "className": "h-12 md:h-20"
   },
   "brandLogos": [
-    { "src": "/facebook.svg", "alt": "Facebook" },
-    { "src": "/disney.svg", "alt": "Disney" },
-    { "src": "/airbnb.svg", "alt": "Airbnb" },
-    { "src": "/apple.svg", "alt": "Apple" },
-    { "src": "/spark.svg", "alt": "Spark" },
-    { "src": "/samsung.svg", "alt": "Samsung" },
-    { "src": "/quora.svg", "alt": "Quora" },
-    { "src": "/sass.svg", "alt": "Sass" }
+    { "src": "/atom(1).png", "alt": "reactjs" },
+    { "src": "/java.png", "alt": "java" },
+    { "src": "/vue.png", "alt": "vuejs." },
+    { "src": "/php.png", "alt": "php" },
+    { "src": "/js.png", "alt": "JavaScript" },
+    { "src": "/python.png", "alt": "python" }
   ]
 }

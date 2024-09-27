@@ -7,34 +7,34 @@
       },
       "title": "Successive",
       "subtitle": "Technologies",
-      "titleClassName": "font-bold text-darkgreen text-2xl leading-6",
+      "titleClassName": "font-bold text-darkgreen md:text-2xl leading-6",
       "subtitleClassName": "text-green text-lg"
     },
     "navItems": [
       {
         "text": "Home",
         "className": "hover:text-green-600 transition duration-200 cursor-pointer",
-        "href" : "#contact"
+        "href" : "#home"
       },
       {
-        "text": "AI Social Assistant",
+        "text": "Service",
         "className": "hover:text-green-600 transition duration-200 cursor-pointer",
-        "href" : "#contact"
+        "href" : "#Service"
       },
       {
-        "text": "Platform",
+        "text": "Our Projects",
         "className": "hover:text-green-600 transition duration-200 cursor-pointer",
-        "href" : "#contact"
+        "href" : "#Projects"
       },
       {
-        "text": "Resources",
+        "text": "Achivement",
         "className": "hover:text-green-600 transition duration-200 cursor-pointer",
-        "href" : "#contact"
+        "href" : "#Achivement"
       },
       {
-        "text": "Pricing",
+        "text": "About us",
         "className": "hover:text-green-600 transition duration-200 cursor-pointer",
-        "href" : "#contact"
+        "href" : "#About"
       }
     ],
     "button": {

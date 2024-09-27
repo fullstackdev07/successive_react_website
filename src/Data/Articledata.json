@@ -7,19 +7,34 @@
   "description": "Our Web And Mobile App Development Services Help You Drive Business Impact, Enhance Digital Presence, And Boost Revenue Quickly",
   "cards": [
     {
-      "icon": "bi bi-person-check",
-      "title": "Real Engaged Followers",
-      "description": "Get the insights your team has been waiting for - now. You won't spend months onboarding, wondering how much of your budget went to learning how to use our platform."
+      "icon": "/smart-phone.svg",
+      "title": "Mobile App Development",
+      "description": "We are the leaders of mobile app development in Australia. With over 15 years of expertise developing mobile apps, we've created over 380 apps for clients across a broad range of industries. We're the perfect partner to help you turn your app idea into reality."
     },
     {
-      "icon": "bi bi-clock-history",
-      "title": "Your 24/7 Social Media Assistant",
-      "description": "Accelerate business processes with AI-powered workflows designed to save marketers valuable time, provide better access to actionable data, and allow your team to focus on growth."
+      "icon": "/Huge-icon-1.svg",
+      "title": "Website Design",
+      "description": "We are the best web design company in Sydney with highly skilled and experienced professionals who know how to create beautiful, responsive websites that help businesses achieve their online goals."
     },
     {
-      "icon": "bi bi-person-gear",
-      "title": "1 On 1 Account Management",
-      "description": "Elevate your business without rebuilding your tech stack. Our global Salesforce partnership and social network integrations make it easy to work within your current processes."
+      "icon": "/shopping-cart.svg",
+      "title": "eCommerce Website Design",
+      "description": "We are official Shopify Experts partner and Gold-winner for web design in 2020 voted by Good Design Awards and we have completed over 600 eCommerce"
+    },
+    {
+      "icon": "/user-group.svg",
+      "title": "Staff Augmentation",
+      "description": "Staff augmentation will complement your in-house team and can bring in skills and expertise to improve your overall team performance."
+    },
+    {
+      "icon": "/icon-UX-Design.svg",
+      "title": "UX/UI Design",
+      "description": "Our goal is to create a design that is visually appealing and easy to use and navigate Our highly skilled design team will work with you to meet your requirements."
+    },
+    {
+      "icon": "/announcement-02.svg",
+      "title": "Digital Marketing",
+      "description": "We pride ourselves on providing quality digital marketing and web development services that help businesses to reach their target audiences and achieve their desired results."
     }
   ]
 }

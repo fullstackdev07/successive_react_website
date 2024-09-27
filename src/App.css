@@ -1,7 +1,6 @@
 .js-underline {
   position: relative;
 }
-
 .js-underline:after {
   content: "";
   position: absolute;
@@ -14,11 +13,9 @@
   transform: scaleX(0);
   transition: transform 0.3s ease;
 }
-
 .js-underline:after {
   transform: scaleX(1);
 }
-
 .gradient_background{
   background: -webkit-linear-gradient(
     45deg,
@@ -26,4 +23,10 @@
     hsla(180, 18%, 93%, 1) 78%,
     hsla(135, 19%, 75%, 1) 100%
   );
+}
+.js-about-bg-image{
+  background-image: url('/engajify/public/filters_brightness(-10).webp');
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }

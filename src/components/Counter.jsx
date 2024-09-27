@@ -40,11 +40,11 @@ const Counter = () => {
       { threshold: 0.5 }
     );
     observer.observe(countSection);
-    return () => observer.disconnect(); // Clean up the observer when the component unmounts
+    return () => observer.disconnect(); 
   }, []);
 
   return (
-    <article className="flex items-center justify-center flex-col max-w-7xl mx-auto mt-14 px-6 rounded-2xl">
+    <article className="flex items-center justify-center flex-col max-w-7xl mx-auto mt-14 px-6 rounded-2xl" id="Achivement">
       {/* Header Section */}
       <div className="font-bold text-center mb-4">
         <div className="flex flex-wrap justify-center items-center md:px-0">
@@ -54,14 +54,14 @@ const Counter = () => {
         </div>
       </div>
 
-      {/* Description Section */}
+      
       <div>
         <p className="text-center text-xl text-gray-700 mb-4 px-4 max-w-2xl">
           {counterData.description}
         </p>
       </div>
 
-      {/* Counter Section */}
+      
       <div className="flex flex-col md:flex-row items-center justify-between p-6 mt-8" id="js-section">
         {counterData.counters.map((counter, index) => (
           <div
