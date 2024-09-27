@@ -24,8 +24,8 @@
     hsla(135, 19%, 75%, 1) 100%
   );
 }
-.js-about-bg-image{
-  background-image: url('/engajify/public/filters_brightness(-10).webp');
+.bg-about-image{
+  /* background-image: url('/filters_brightness(-10).webp'); */
   height: 100%;
   width: 100%;
   object-fit: contain;

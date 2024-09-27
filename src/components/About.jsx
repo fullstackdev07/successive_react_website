@@ -1,5 +1,6 @@
 import React from "react";
 import aboutData from "../Data/Aboutdata.json";
+import bgimage from "/filters_brightness(-10).webp"
 
 
 const About = () => {
@@ -85,11 +86,11 @@ const About = () => {
       </div>
 
       <div
-        className="flex flex-col items-center justify-center max-w-7xl mx-auto mt-14 px-8 bg-darkgray rounded-xl h-96 bg-cover bg-center"
-        style={{ backgroundImage: `url(${aboutData.bgimage.src})` }}
+        className="flex flex-col items-center justify-center max-w-7xl mx-auto mt-14 px-8 bg-darkgray rounded-xl h-96 bg-cover bg-center bg-about-image"
+        
         data-aos="fade-right"
       >
-        <img src={aboutData.bgimage.src} alt="Background"  />
+        
       </div>
     </div>
   );
