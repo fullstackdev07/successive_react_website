@@ -1,7 +1,6 @@
 import React from "react";
 import aboutData from "../Data/Aboutdata.json";
-import bgimage from "/filters_brightness(-10).webp"
-
+import bgimage from "/filters_brightness(-10).webp";
 
 const About = () => {
   return (
@@ -86,12 +85,39 @@ const About = () => {
       </div>
 
       <div
-        className="flex flex-col items-center justify-center max-w-7xl mx-auto mt-14 px-8 bg-darkgray rounded-xl h-96 bg-cover bg-center bg-about-image"
-        
+        className="flex flex-col items-center justify-center max-w-7xl mx-auto mt-14 px-4 md:px-8 bg-darkgray rounded-xl h-[48rem] bg-cover bg-center bg-about-image"
         data-aos="fade-right"
       >
-        
+        <div className="w-full md:w-96 text-white">
+          <div className="relative border-dashed border-2 border-white mb-4 pl-8">
+            <button className="px-3 py-1 rounded-full border border-white absolute left-14 bg-darkgray hover:bg-gray-700 transition-colors duration-200">1</button>
+            <h1 className="text-lg md:text-xl font-bold">No two clients are the same</h1>
+            <p className="text-sm md:text-base">
+              Your business is unique. We invest time to understand each client’s needs and provide tailored solutions.
+            </p>
+          </div>
+          <div className="border-dashed border-l-2 border-white mb-4 pl-8">
+            <h1 className="text-lg md:text-xl font-bold">Data-driven digital strategy</h1>
+            <p className="text-sm md:text-base">
+              We leave our egos at the door and use data, data, and more data to validate our strategies. Agile approach to everything.
+            </p>
+          </div>
+          <div className="border-dashed border-l-2 border-white mb-4 pl-8">
+            <h1 className="text-lg md:text-xl font-bold">Agile approach to everything</h1>
+            <p className="text-sm md:text-base">
+              Whether developing an MVP or launching a multi-faceted campaign, we work nimbly and efficiently. Analyze. Improve. Repeat.
+            </p>
+          </div>
+          <div className=" pl-8">
+            <h1 className="text-lg md:text-xl font-bold">Analyze. Improve. Repeat.</h1>
+            <p className="text-sm md:text-base">
+              Good performance can always be better. We analyze our results and use the data to continuously raise the bar.
+            </p>
+          </div>
+        </div>
       </div>
+
+
     </div>
   );
 };

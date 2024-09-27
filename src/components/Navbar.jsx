@@ -11,13 +11,13 @@ const Navbar = () => {
           <img
             src={navbarContent.brand.logo.src}
             alt={navbarContent.brand.logo.alt}
-            className={navbarContent.brand.logo.className}
+            className={"h-12 w-12 md:h-16 md:w-16"}
           />
           <div>
-            <p className={navbarContent.brand.titleClassName}>
+            <p className={"font-bold text-darkgreen md:text-2xl"}>
               {navbarContent.brand.title}
             </p>
-            <p className={navbarContent.brand.subtitleClassName}>
+            <p className={"text-green mt-[-0.7rem] md:text-2xl"}>
               {navbarContent.brand.subtitle}
             </p>
           </div>
