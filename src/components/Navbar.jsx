@@ -13,7 +13,7 @@ const Navbar = () => {
   })
 
   return (
-    <nav className={`fixed top-0 w-full z-40 ${navbarColour ? "bg-white transition duration-700": "bg-transparent"}`}>
+    <nav className={`fixed top-0 w-full z-40 ${navbarColour ? "backdrop-blur-md transition duration-700": "bg-transparent"}`}>
       <div className="flex items-center justify-between max-w-7xl mx-auto m-0 p-2 md:p-0 ">
         <div className="flex items-center">
           <img
