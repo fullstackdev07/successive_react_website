@@ -32,11 +32,11 @@
     "className": "h-12 md:h-20"
   },
   "brandLogos": [
-    { "src": "/atom(1).png", "alt": "reactjs" },
-    { "src": "/java.png", "alt": "java" },
-    { "src": "/vue.png", "alt": "vuejs." },
-    { "src": "/php.png", "alt": "php" },
-    { "src": "/js.png", "alt": "JavaScript" },
-    { "src": "/python.png", "alt": "python" }
+    { "src": "/AmazonECS.svg", "alt": "reactjs" },
+    { "src": "/Django.svg", "alt": "java" },
+    { "src": "/Strapi.svg", "alt": "vuejs." },
+    { "src": "/React.svg", "alt": "php" },
+    { "src": "/Python.svg", "alt": "JavaScript" },
+    { "src": "/NodeJS.svg", "alt": "python" }
   ]
 }
