@@ -26,13 +26,14 @@ const ServiceSection = () => {
        
         <div className="md:w-1/2 text-left space-y-4 lg:space-y-6 ">
           <h1
-            className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 leading-tight md:mt-3 lg:mt-[-2rem]"
+            className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 
+            leading-tight md:mt-3 lg:mt-[-2rem]"
             data-aos="fade-left"
           >
             {sectionTitle.main}
           </h1>
 
-          <div className="mt-4 md:text-xl lg:text-xl text-black leading-relaxed space-y-4">
+          <div className="mt-4 text-black leading-relaxed space-y-4">
             <p>{intro}</p>
             <p>{firstpara}</p>
             <p>{secondpara}</p>

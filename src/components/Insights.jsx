@@ -36,12 +36,12 @@ const Insights = () => {
               <img
                 src={filteredCategory.imgSrc}
                 alt={filteredCategory.label}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-fill"
               />
             </div>
 
-            <div className="w-full lg:w-1/2 text-white px-4 md:px-8 lg:px-12">
-              <h1 className="text-xl md:text-2xl lg:text-3xl font-bold mb-4" data-aos="fade-left">
+            <div className="w-full lg:w-1/2 text-white px-4 md:px-8 lg:px-12" data-aos="fade-left">
+              <h1 className="text-xl md:text-2xl lg:text-3xl font-bold mb-4" >
                 {insightsData.header}
               </h1>
               <p className="text-lightgreen leading-relaxed mb-6 line-clamp-3">

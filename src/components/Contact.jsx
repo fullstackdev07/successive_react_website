@@ -5,20 +5,19 @@ const Contact = () => {
     const { title, contactUs, contactDetails, form } = contactContent;
 
     return (
-        <div className="mx-4" id="contact">
+        <div className="m-1" id="contact">
             <div
-                className="flex items-center justify-center flex-col md:flex-row max-w-7xl mx-auto mt-10 mb-10
-             bg-lightBackground rounded-3xl shadow-2xl p-10 space-y-8  md:space-y-8"
+                className="flex items-center justify-center flex-col md:flex-row max-w-7xl mx-auto mt-10 mb-10 bg-lightBackground rounded-3xl shadow-2xl md:p-10 space-y-8  md:space-y-8"
                 data-aos="fade-right"
             >
                 <div className="w-full md:w-1/2 text-center text-darkgreen">
-                    <h1 className="text-3xl md:text-4xl font-bold mb-6 flex items-center ">
+                    <h1 className="text-3xl md:text-4xl font-bold mb-6 flex items-center m-4">
                         {title}
                     </h1>
 
-                    <div className="space-y-5">
+                    <div className="space-y-5 px-3">
                         <div className="flex flex-col items-center md:items-start">
-                            <label className="text-6xl font-bold text-gray-600">
+                            <label className="text-4xl font-bold text-gray-600">
                                 {contactUs.label}
                             </label>
                             <p className="text-center md:text-left my-8">

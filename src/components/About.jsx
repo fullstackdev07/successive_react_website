@@ -84,43 +84,60 @@ const About = () => {
         </div>
       </div>
 
-      <div
-        className="flex flex-col items-center justify-center max-w-7xl mx-auto mt-14 px-4 md:px-8 bg-darkgray rounded-xl h-[48rem] bg-cover bg-center bg-about-image"
-        data-aos="fade-right"
-      >
-        <div className="w-full md:w-96 text-white">
-          <div className="relative border-dashed border-l-2 border-white mb-4 pl-8">
-            <button className="px-3 py-1 rounded-full border border-white absolute left-[-1rem] top-[-1rem]  bg-gray-800 transition-colors duration-200">1</button>
-            <h1 className="text-lg md:text-xl font-bold">No two clients are the same</h1>
-            <p className="text-sm md:text-base">
-              Your business is unique. We invest time to understand each client’s needs and provide tailored solutions.
+      <div className="flex flex-col items-start justify-center max-w-7xl mx-auto mt-14 px-8 md:px-48 bg-darkgray rounded-xl md:h-[48rem] bg-cover bg-center bg-about-image overflow-hidden">
+        <div className="w-full md:w-[90%] lg:w-96 text-white my-8 md:my-0">
+          <div className="relative border-dashed border-l-2 border-white pl-8 pb-4">
+            <button className="px-3 py-1 rounded-full border-2 border-white absolute left-[-1.1rem] bg-gray-800">
+              1
+            </button>
+            <div>
+              <h1 className="text-[1.25rem] font-bold">
+                No two clients are the same
+              </h1>
+              <p className="text-[1rem] md:text-[1.25rem]  mt-2">
+                Your business is unique. We invest time to understand each
+                client’s needs and provide tailored solutions.
+              </p>
+            </div>
+          </div>
+          <div className="relative border-dashed border-l-2 border-white pl-8 pb-4">
+            <button className="px-3 py-1 rounded-full border-2 border-white absolute left-[-1.1rem] bg-gray-800">
+              2
+            </button>
+            <h1 className="text-[1.25rem] font-bold">
+              Data-driven digital strategy
+            </h1>
+            <p className="text-[1rem] md:text-[1.25rem]  mt-2">
+              Whether developing an MVP or launching a multi-faceted campaign,
+              we work nimbly and efficiently.
             </p>
           </div>
-          <div className="relative border-dashed border-l-2 border-white mb-4 pl-8">
-            <button className="px-3 py-1 rounded-full border border-white absolute left-[-1rem] top-[-1rem]  bg-gray-800 transition-colors duration-200">1</button>
-            <h1 className="text-lg md:text-xl font-bold">No two clients are the same</h1>
-            <p className="text-sm md:text-base">
-              Your business is unique. We invest time to understand each client’s needs and provide tailored solutions.
+          <div className="relative border-dashed border-l-2 border-white pl-8 pb-4">
+            <button className="px-3 py-1 rounded-full border-2 border-white absolute left-[-1.1rem] bg-gray-800">
+              3
+            </button>
+            <h1 className="text-[1.25rem] font-bold">
+              Agile approach to everything
+            </h1>
+            <p className="text-[1rem] md:text-[1.25rem]  mt-2">
+              Whether developing an MVP or launching a multi-faceted campaign,
+              we work nimbly and efficiently.
             </p>
           </div>
-          <div className="relative border-dashed border-l-2 border-white mb-4 pl-8">
-            <button className="px-3 py-1 rounded-full border border-white absolute left-[-1rem] top-[-1rem]  bg-gray-800 transition-colors duration-200">1</button>
-            <h1 className="text-lg md:text-xl font-bold">No two clients are the same</h1>
-            <p className="text-sm md:text-base">
-              Your business is unique. We invest time to understand each client’s needs and provide tailored solutions.
-            </p>
-          </div>
-          <div className="relative border-dashed  mb-4 pl-8">
-            <button className="px-3 py-1 rounded-full border border-white absolute left-[-1rem] top-[-1rem]  bg-gray-800 transition-colors duration-200">1</button>
-            <h1 className="text-lg md:text-xl font-bold">No two clients are the same</h1>
-            <p className="text-sm md:text-base">
-              Your business is unique. We invest time to understand each client’s needs and provide tailored solutions.
+          <div className="relative border-dashed pl-8 pb-4">
+            <button className="px-3 py-1 rounded-full border-2 border-white absolute left-[-1.1rem] bg-gray-800">
+              4
+            </button>
+            <h1 className="text-[1.25rem] font-bold">
+              Analyze. Improve. Repeat.
+            </h1>
+            <p className="text-[1rem] md:text-[1.25rem] mt-2">
+              Good performance can always be better. We analyze our results and
+              use the data to continuously raise the bar.
             </p>
           </div>
         </div>
       </div>
-
-
     </div>
   );
 };

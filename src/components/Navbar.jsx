@@ -17,7 +17,7 @@ const Navbar = () => {
             <p className={"font-bold text-darkgreen md:text-2xl"}>
               {navbarContent.brand.title}
             </p>
-            <p className={"text-green mt-[-0.7rem] md:text-2xl"}>
+            <p className={"text-green mt-[-0.5rem] md:mt-[-0.5rem] md:text-xl"}>
               {navbarContent.brand.subtitle}
             </p>
           </div>

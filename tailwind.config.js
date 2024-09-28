@@ -6,7 +6,9 @@ export default {
       animation: {
         "infinite-scroll": "infinite-scroll 25s linear infinite",
       },
-      
+      screens : {
+        md : "810px"
+      },
       keyframes: {
         "infinite-scroll": {
           from: { transform: "translateX(0)" },

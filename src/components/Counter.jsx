@@ -45,7 +45,7 @@ const Counter = () => {
 
   return (
     <article className="flex items-center justify-center flex-col max-w-7xl mx-auto mt-14 px-6 rounded-2xl" id="Achivement">
-      {/* Header Section */}
+      
       <div className="font-bold text-center mb-4">
         <div className="flex flex-wrap justify-center items-center md:px-0">
           <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl" data-aos="fade-left">
@@ -56,7 +56,7 @@ const Counter = () => {
 
       
       <div>
-        <p className="text-center text-xl text-gray-700 mb-4 px-4 max-w-2xl">
+        <p className="text-center mb-4 px-4 max-w-2xl">
           {counterData.description}
         </p>
       </div>

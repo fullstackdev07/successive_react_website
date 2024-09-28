@@ -16,7 +16,7 @@
       },
       {
         "icon": "bi bi-bank",
-        "label": "BFSI",
+        "label": "Banking & Finance",
         "category": "BFSI",
         "imgSrc" : "/bfsi.png", 
         "description": "Developing BFSI-specific software solutions that are immutable, decentralized, and consensus-driven. We adhere to all compliance, making the BFSI industry borderless.",
