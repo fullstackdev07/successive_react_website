@@ -8,7 +8,7 @@ html, body{
     margin: 0px;
     padding: 0px;
     scroll-behavior: smooth;
-    scroll-padding: 2rem;
+    scroll-padding: 4rem;
     background: -webkit-linear-gradient(
     45deg,
     hsla(133, 18%, 75%, 1) 62%,
