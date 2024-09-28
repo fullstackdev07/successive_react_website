@@ -55,12 +55,13 @@ const About = () => {
             animate-infinite-scroll"
             >
               {aboutData.brandLogos.map((logo, index) => (
-                <li key={index}>
+                <li key={index} className="text-center">
                   <img
                     src={logo.src}
                     alt={logo.alt}
                     className="h-12 w-20 rounded-xl"
                   />
+                  <p className="text-gray-400 text-[1rem]">{logo.label}</p>
                 </li>
               ))}
             </ul>
@@ -71,13 +72,15 @@ const About = () => {
               aria-hidden="true"
             >
               {aboutData.brandLogos.map((logo, index) => (
-                <li key={index}>
+                <li key={index} className="text-center">
                   <img
                     src={logo.src}
                     alt={logo.alt}
                     className="h-12 w-20 rounded-xl"
                   />
+                  <p className="text-gray-400 line-clamp-1">{logo.label}</p>
                 </li>
+
               ))}
             </ul>
           </div>

@@ -32,14 +32,14 @@
     "className": "h-12 md:h-20"
   },
   "brandLogos": [
-    { "src": "/AmazonECS.svg", "alt": "AmazonECS.svg" },
-    { "src": "/Django.svg", "alt": "Django.svg" },
-    { "src": "/js.svg", "alt": "js.svg" },
-    { "src": "/Lambda.svg", "alt": "Lambda.svg" },
-    { "src": "/Strapi.svg", "alt": "Strapi.svg" },
-    { "src": "/React.svg", "alt": "React.svg" },
-    { "src": "/Python.svg", "alt": "Python.svg" },
-    { "src": "/NodeJS.svg", "alt": "NodeJS.svg" },
-    { "src": "/vuejs.svg", "alt": "vuejs.svg" }
+    { "src": "/AmazonECS.svg", "alt": "AmazonECS.svg" , "label" : "AmazonECS" },
+    { "src": "/Django.svg", "alt": "Django.svg" , "label" : "Django"  },
+    { "src": "/js.svg", "alt": "js.svg" , "label" : "Javascript"  },
+    { "src": "/Lambda.svg", "alt": "Lambda.svg" , "label" : "AWS"  },
+    { "src": "/Strapi.svg", "alt": "Strapi.svg" , "label" : "Strapi"  },
+    { "src": "/React.svg", "alt": "React.svg" , "label" : "React Js" },
+    { "src": "/Python.svg", "alt": "Python.svg" , "label" : "Python"  },
+    { "src": "/NodeJS.svg", "alt": "NodeJS.svg" , "label" : "Node Js"},
+    { "src": "/vuejs.svg", "alt": "vuejs.svg" , "label" : "Vue Js"  }
   ]
 }
