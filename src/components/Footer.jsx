@@ -38,11 +38,21 @@ const Footer = () => {
         </div>
 
         <div className="flex justify-center md:justify-end gap-4 text-xl md:text-2xl text-white">
+          <a href="https://www.facebook.com/">
           <FaFacebook className="hover:text-gray-300 transition" />
+          </a>
+          <a href="https://www.instagram.com/">
           <FaInstagramSquare className="hover:text-gray-300 transition" />
+          </a>
+          <a href="https://www.instagram.com/">
           <FaPinterestSquare className="hover:text-gray-300 transition" />
+          </a>
+          <a href="https://www.facebook.com/">
           <FaSquareThreads className="hover:text-gray-300 transition" />
+          </a>
+          <a href="https://www.facebook.com/">
           <FaYoutube className="hover:text-gray-300 transition" />
+          </a>
         </div>
       </div>
     </footer>

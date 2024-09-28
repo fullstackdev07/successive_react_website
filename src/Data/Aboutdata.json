@@ -32,11 +32,14 @@
     "className": "h-12 md:h-20"
   },
   "brandLogos": [
-    { "src": "/AmazonECS.svg", "alt": "reactjs" },
-    { "src": "/Django.svg", "alt": "java" },
-    { "src": "/Strapi.svg", "alt": "vuejs." },
-    { "src": "/React.svg", "alt": "php" },
-    { "src": "/Python.svg", "alt": "JavaScript" },
-    { "src": "/NodeJS.svg", "alt": "python" }
+    { "src": "/AmazonECS.svg", "alt": "AmazonECS.svg" },
+    { "src": "/Django.svg", "alt": "Django.svg" },
+    { "src": "/js.svg", "alt": "js.svg" },
+    { "src": "/Lambda.svg", "alt": "Lambda.svg" },
+    { "src": "/Strapi.svg", "alt": "Strapi.svg" },
+    { "src": "/React.svg", "alt": "React.svg" },
+    { "src": "/Python.svg", "alt": "Python.svg" },
+    { "src": "/NodeJS.svg", "alt": "NodeJS.svg" },
+    { "src": "/vuejs.png", "alt": "vuejs.png" }
   ]
 }
