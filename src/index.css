@@ -9,4 +9,10 @@ html, body{
     padding: 0px;
     scroll-behavior: smooth;
     scroll-padding: 2rem;
+    background: -webkit-linear-gradient(
+    45deg,
+    hsla(133, 18%, 75%, 1) 62%,
+    hsla(180, 18%, 93%, 1) 78%,
+    hsla(135, 19%, 75%, 1) 100%
+  );
 }

@@ -13,15 +13,6 @@
     "text": "Get Started",
     "className": "px-6 py-3 text-white bg-green hover:bg-green-700 rounded-lg transition duration-200 shadow-md"
   },
-  "ratings": [
-    { "src": "/rating.png", "alt": "Rating", "className": "h-6 md:h-8" },
-    { "src": "/TrustPilot.png", "alt": "TrustPilot", "className": "h-6 md:h-8" }
-  ],
-  "images": [
-    { "src": "/Instagram.png", "alt": "Instagram", "overlayText": "Hello World" },
-    { "src": "/Nature.png", "alt": "Nature", "overlayText": "Hello World" },
-    { "src": "/shopping.png", "alt": "Shopping" }
-  ],
   "bgimage": {
     "src": "/filters_brightness(-10).webp",
     "alt": "filters_brightness(-10).webp"

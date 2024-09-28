@@ -3,10 +3,18 @@ import navbarContent from "../Data/Navbardata.json";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
+  const [navbarColour , setNavbarColour] = useState(false);
+
+  window.addEventListener( "scroll",() => {
+      setNavbarColour(true);
+      if(window.scrollY == 0){
+        setNavbarColour(false);
+      }
+  })
 
   return (
-    <nav>
-      <div className="flex items-center justify-between p-4 max-w-7xl mx-auto">
+    <nav className={`fixed top-0 w-full z-40 ${navbarColour ? "bg-white transition duration-700": "bg-transparent"}`}>
+      <div className="flex items-center justify-between max-w-7xl mx-auto m-0 p-2 md:p-0 ">
         <div className="flex items-center">
           <img
             src={navbarContent.brand.logo.src}
