@@ -40,6 +40,6 @@
     { "src": "/React.svg", "alt": "React.svg" },
     { "src": "/Python.svg", "alt": "Python.svg" },
     { "src": "/NodeJS.svg", "alt": "NodeJS.svg" },
-    { "src": "/vuejs.png", "alt": "vuejs.png" }
+    { "src": "/vuejs.svg", "alt": "vuejs.svg" }
   ]
 }
