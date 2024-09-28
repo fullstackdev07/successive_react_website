@@ -1,6 +1,6 @@
 import React from "react";
 import aboutData from "../Data/Aboutdata.json";
-import bgimage from "/filters_brightness(-10).webp";
+
 
 const About = () => {
   return (

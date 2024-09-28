@@ -57,8 +57,8 @@ const Insights = () => {
                 ))}
               </ul>
               <a
-                href={insightsData.weblink}
-                target="_blank"
+                href={insightsData.href}
+               
                 rel="noopener noreferrer"
               >
                 <button className="mt-6 px-6 py-2 text-green bg-white rounded-2xl hover:bg-green-700 transition duration-200 ease-in-out">

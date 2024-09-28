@@ -7,195 +7,42 @@ import {
   FaPinterestSquare,
 } from "react-icons/fa";
 import { FaSquareThreads } from "react-icons/fa6";
-import { AiOutlineTikTok } from "react-icons/ai";
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-ramagreen py-10 mt-36">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center px-4 space-y-8 md:space-y-0">
-        <div className="w-full md:w-1/2 flex flex-col items-center md:items-start space-y-4">
-          <div className="flex items-center mx-0">
-            <img src={footer} alt="engajify logo" className="h-20 w-20" />
-            <div className="">
-              <p className="font-bold text-white text-3xl leading-6">
-                Successive
-              </p>
-              <p className="text-white text-2xl">Technologies</p>
-            </div>
-          </div>
+    <footer className="w-full bg-ramagreen py-6 mt-24">
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-4">
 
-          <p className="text-white text-lg font-semibold">1.866.78.5654</p>
-          <p className="text-white underline">Contact Us</p>
-
-          <div className="flex space-x-4 text-3xl text-white">
-          
-            <FaInstagramSquare />
-            <FaSquareThreads />
-            <FaYoutube />
-            <AiOutlineTikTok />
-            <FaPinterestSquare />
+        <div className="flex items-center mb-4 md:mb-0">
+          <img src={footer} alt="Engajify logo" className="h-12 w-12 md:h-14 md:w-14" />
+          <div className="text-center md:text-left">
+            <p className="font-bold text-white text-xl md:text-2xl leading-6">
+              Successive
+            </p>
+            <p className="text-white text-lg md:text-xl">Technologies</p>
           </div>
         </div>
 
-        
-        <div className="w-full md:w-1/2 grid grid-cols-2 md:grid-cols-3 gap-4">
-          <div>
-            <h3 className="text-white text-lg font-bold mb-2">Product</h3>
-            <ul className="space-y-2 text-gray text-gray-400">
-              <li>
-                <a href="#" className="hover:underline">
-                  Features
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Pricing
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Integrations
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  FAQ
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h3 className="text-white text-lg font-bold mb-2">Company</h3>
-            <ul className="space-y-2 text-gray-400">
-              <li>
-                <a href="#" className="hover:underline">
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Careers
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Press
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Blog
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h3 className="text-white text-lg font-bold mb-2">Support</h3>
-            <ul className="space-y-2 text-gray-400">
-              <li>
-                <a href="#" className="hover:underline">
-                  Help Center
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Terms of Service
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Privacy Policy
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Contact Support
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h3 className="text-white text-lg font-bold mb-2">Checkout</h3>
-            <ul className="space-y-2 text-gray-400">
-              <li>
-                <a href="#" className="hover:underline">
-                  Help Center
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Terms of Service
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Privacy Policy
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Contact Support
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h3 className="text-white text-lg font-bold mb-2">About</h3>
-            <ul className="space-y-2 text-gray-400">
-              <li>
-                <a href="#" className="hover:underline">
-                  Help Center
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Terms of Service
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Privacy Policy
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Contact Support
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div className="text-center text-white mt-8 text-sm border-t-2 border-white p-6">
-        <div className="flex flex-col md:flex-row items-center justify-between md:justify-between">
-          <div className="mb-4 md:mb-0">
-            © {new Date().getFullYear()} Your Company. All rights reserved.
-          </div>
 
-          <div>
-            <ul className="flex flex-col md:flex-row gap-4 text-gray-400">
-              <li>
-                <a href="#" className="hover:underline">
-                  Help Center
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Terms of Service
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Privacy Policy
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Contact Support
-                </a>
-              </li>
-            </ul>
-          </div>
+        <div className="text-center md:text-left text-white mb-4 md:mb-0">
+          <h1 className="text-lg">
+            ©2024 Successive Technologies Ltd
+          </h1>
+          <ul className="flex flex-wrap justify-center md:justify-start gap-2 text-sm md:text-base">
+            <li className="hover:underline cursor-pointer">Privacy Notice</li>
+            <li className="hover:underline cursor-pointer">Cookie Policy</li>
+            <li className="hover:underline cursor-pointer">Disclaimer</li>
+            <li className="hover:underline cursor-pointer">Security Policy</li>
+            <li className="hover:underline cursor-pointer">Customize Cookies</li>
+          </ul>
+        </div>
+
+        <div className="flex justify-center md:justify-end gap-4 text-xl md:text-2xl text-white">
+          <FaFacebook className="hover:text-gray-300 transition" />
+          <FaInstagramSquare className="hover:text-gray-300 transition" />
+          <FaPinterestSquare className="hover:text-gray-300 transition" />
+          <FaSquareThreads className="hover:text-gray-300 transition" />
+          <FaYoutube className="hover:text-gray-300 transition" />
         </div>
       </div>
     </footer>
