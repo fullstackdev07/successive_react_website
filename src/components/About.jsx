@@ -4,7 +4,7 @@ import aboutData from "../Data/Aboutdata.json";
 
 const About = () => {
   return (
-    <div className="flex items-center flex-col mt-28 md:mt-32 px-2" id="home">
+    <div className="flex items-center flex-col mt-28 md:mt-28 px-2" id="home">
       <div>
         <div
           className="text-4xl md:text-5xl font-extrabold max-w-4xl mx-auto text-center leading-tight text-gray-900"

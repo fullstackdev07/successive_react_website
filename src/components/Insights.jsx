@@ -1,12 +1,17 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import insightsData from "../Data/Insights.json";
 
 const Insights = () => {
   const [category, setCategory] = useState("Healthcare");
+  const [filteredCategory, setFilteredCategory] = useState(null);
 
-  const filteredCategory = insightsData.buttons.find(
+useEffect(() => {
+  const categoryMatch = insightsData.buttons.find(
     (ele) => ele.category === category
   );
+  setFilteredCategory(categoryMatch);
+}, [category]);
+  
 
   return (
     <article className="mx-4" id="Projects">

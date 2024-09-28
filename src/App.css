@@ -16,14 +16,14 @@
 .js-underline:after {
   transform: scaleX(1);
 }
-/* .gradient_background{
+.gradient_background{
   background: -webkit-linear-gradient(
     45deg,
     hsla(133, 18%, 75%, 1) 62%,
     hsla(180, 18%, 93%, 1) 78%,
     hsla(135, 19%, 75%, 1) 100%
   );
-} */
+}
 .bg-about-image{
   background-image: url('/filters_brightness(-10).webp');
   height: 100%;
