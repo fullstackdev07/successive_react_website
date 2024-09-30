@@ -18,7 +18,7 @@ const Counter = () => {
       } else {
         setCounter(Math.round(start));
       }
-    }, 50);
+    }, 30);
   };
 
   const startCounter = () => {
@@ -40,12 +40,12 @@ const Counter = () => {
       { threshold: 0.5 }
     );
     observer.observe(countSection);
-    return () => observer.disconnect(); 
+    return () => observer.disconnect();
   }, []);
 
   return (
     <article className="flex items-center justify-center flex-col max-w-7xl mx-auto mt-14 px-6 rounded-2xl" id="Achivement">
-      
+
       <div className="font-bold text-center mb-4">
         <div className="flex flex-wrap justify-center items-center md:px-0">
           <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl" data-aos="fade-left">
@@ -54,14 +54,14 @@ const Counter = () => {
         </div>
       </div>
 
-      
+
       <div>
         <p className="text-center mb-4 px-4 max-w-2xl">
           {counterData.description}
         </p>
       </div>
 
-      
+
       <div className="flex flex-col md:flex-row items-center justify-between p-6 mt-8" id="js-section">
         {counterData.counters.map((counter, index) => (
           <div

@@ -34,13 +34,13 @@ const Footer = () => {
         {/* Copyright Section */}
         <div className={copyrightSection?.className || ""}>
           <h1 className="text-lg">{copyrightSection?.text || ""}</h1>
-          <ul className="flex flex-wrap justify-center md:justify-start gap-2 text-sm md:text-base">
+          {/* <ul className="flex flex-wrap justify-center md:justify-start gap-2 text-sm md:text-base">
             {copyrightSection?.links?.map((link, index) => (
               <li key={index} className={link?.className || ""}>
                 {link?.text || ""}
               </li>
             ))}
-          </ul>
+          </ul> */}
         </div>
 
         {/* Social Media Section */}

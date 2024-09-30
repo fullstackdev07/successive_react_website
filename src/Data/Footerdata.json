@@ -61,11 +61,7 @@
               "href": "https://www.instagram.com/",
               "className": "hover:text-gray-300 transition"
             },
-            {
-              "icon": "bi-pinterest",
-              "href": "https://www.instagram.com/",
-              "className": "hover:text-gray-300 transition"
-            },
+            
             {
               "icon": "bi-threads",
               "href": "https://www.threads.net/",

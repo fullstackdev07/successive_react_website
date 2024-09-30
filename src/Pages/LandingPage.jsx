@@ -18,6 +18,7 @@ const LandingPage = () => {
     return (
         <div className="w-full h-full gradient_background">
             <Navbar />
+            <div id="body-refrence">
             <About />
             <Article />
             <Insights />
@@ -25,6 +26,7 @@ const LandingPage = () => {
             <ServiceSection />
             <Contact />
             <Footer />
+            </div>
         </div>
     );
 };

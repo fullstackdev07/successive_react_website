@@ -32,5 +32,27 @@
     { "src": "/Python.svg", "alt": "Python.svg" , "label" : "Python"  },
     { "src": "/NodeJS.svg", "alt": "NodeJS.svg" , "label" : "Node Js"},
     { "src": "/vuejs.svg", "alt": "vuejs.svg" , "label" : "Vue Js"  }
+  ],
+  "sections": [
+    {
+      "step": 1,
+      "title": "No two clients are the same",
+      "description": "Your business is unique. We invest time to understand each client’s needs and provide tailored solutions."
+    },
+    {
+      "step": 2,
+      "title": "Data-driven digital strategy",
+      "description": "Whether developing an MVP or launching a multi-faceted campaign, we work nimbly and efficiently."
+    },
+    {
+      "step": 3,
+      "title": "Agile approach to everything",
+      "description": "We use data-driven approaches to ensure projects are delivered effectively and at the highest standard."
+    },
+    {
+      "step": 4,
+      "title": "Analyze. Improve. Repeat.",
+      "description": "Good performance can always be better. We analyze our results and use the data to continuously raise the bar."
+    }
   ]
 }

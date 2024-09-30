@@ -1,21 +1,27 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import navbarContent from "../Data/Navbardata.json";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
-  const [navbarColour , setNavbarColour] = useState(false);
+  const [navbarColour, setNavbarColour] = useState(false);
 
-  window.addEventListener( "scroll",() => {
-      setNavbarColour(true);
-      if(window.scrollY == 0){
-        setNavbarColour(false);
-      }
+  window.addEventListener("scroll", () => {
+    setNavbarColour(true);
+    if (window.scrollY == 0) {
+      setNavbarColour(false);
+    }
   })
 
+  setTimeout(() => {
+    document.getElementById('body-refrence').addEventListener('click', () => {
+      setToggle(false)
+    })
+  }, 0);
+
   return (
-    <nav className={`fixed top-0 w-full z-40 ${navbarColour ? "backdrop-blur-md transition duration-700": "bg-transparent"}`}>
-      <div className="flex items-center justify-between max-w-7xl mx-auto m-0 p-2 md:p-0 ">
-        <div className="flex items-center">
+    <nav className={`fixed top-0 w-full z-40 ${navbarColour ? "backdrop-blur-md transition duration-700" : "bg-transparent"}`}>
+      <div className="flex items-center justify-between max-w-7xl mx-auto m-0 p-2 px-4 md:p-0 ">
+        <div className="flex">
           <img
             src={navbarContent.brand.logo.src}
             alt={navbarContent.brand.logo.alt}
@@ -32,11 +38,11 @@ const Navbar = () => {
         </div>
 
         <div>
-          <ul className="hidden md:flex items-center gap-6 text-gray-700 cursor-pointer font-bold">
+          <ul className="hidden md:flex items-center gap-6 text-gray-700 cursor-pointer font-bold ml-[-4.4rem]">
             {navbarContent.navItems.map((item, index) => (
               <li key={index} className={item.className}>
                 <a href={item.href}>
-                {item.text}
+                  {item.text}
                 </a>
               </li>
             ))}
@@ -61,15 +67,14 @@ const Navbar = () => {
       </div>
 
       <div
-        className={`md:hidden w-full bg-green z-10 transition-all duration-300 ease-in-out absolute ${
-          toggle ? "max-h-screen" : "max-h-0 overflow-hidden"
-        }`}
+        className={`md:hidden w-full bg-green z-10 transition-all duration-300 ease-in-out absolute ${toggle ? "max-h-screen" : "max-h-0 overflow-hidden"
+          }`}
       >
         <ul className="flex flex-col items-center p-4 text-white">
           {navbarContent.navItems.map((item, index) => (
             <li key={index} className={navbarContent.mobileMenu.itemClassName}>
               <a href={item.href}>
-              {item.text}
+                {item.text}
               </a>
             </li>
           ))}

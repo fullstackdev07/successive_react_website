@@ -1,13 +1,12 @@
 import React from "react";
 import aboutData from "../Data/Aboutdata.json";
 
-
 const About = () => {
   return (
     <div className="flex items-center flex-col mt-28 md:mt-28 px-2" id="home">
       <div>
         <div
-          className="text-4xl md:text-5xl font-extrabold max-w-4xl mx-auto text-center leading-tight text-gray-900"
+          className="text-4xl md:text-5xl font-extrabold max-w-4xl mx-auto text-center text-gray-900"
           data-aos="fade-right"
         >
           <h1>{aboutData.header.title[0]}</h1>
@@ -80,7 +79,6 @@ const About = () => {
                   />
                   <p className="text-gray-400 line-clamp-1">{logo.label}</p>
                 </li>
-
               ))}
             </ul>
           </div>
@@ -89,56 +87,23 @@ const About = () => {
 
       <div className="flex flex-col items-start justify-center max-w-7xl mx-auto mt-14 px-8 md:px-48 bg-darkgray rounded-xl md:h-[48rem] bg-cover bg-center bg-about-image overflow-hidden">
         <div className="w-full md:w-[90%] lg:w-96 text-white my-8 md:my-0">
-          <div className="relative border-dashed border-l-2 border-white pl-8 pb-4">
-            <button className="px-3 py-1 rounded-full border-2 border-white absolute left-[-1.1rem] bg-gray-800">
-              1
-            </button>
-            <div>
-              <h1 className="text-[1.25rem] font-bold">
-                No two clients are the same
-              </h1>
-              <p className="text-[1rem] md:text-[1.25rem]  mt-2">
-                Your business is unique. We invest time to understand each
-                client’s needs and provide tailored solutions.
-              </p>
+          {aboutData.sections.map((ele, index) => (
+            <div
+              className={`relative pl-8 pb-12" key={index} ${index === 3 ? "" : "border-dashed border-l-2 border-white"
+                }`}
+              key={Math.random()}
+            >
+              <button className="px-3 py-1 rounded-full border-2 border-white absolute left-[-1.1rem] bg-gray-800">
+                {ele.step}
+              </button>
+              <div>
+                <h1 className="text-[1.50rem] font-bold mt-1">{ele.title}</h1>
+                <p className="text-[1rem] md:text-[1.25rem] pb-2">
+                  {ele.description}
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="relative border-dashed border-l-2 border-white pl-8 pb-4">
-            <button className="px-3 py-1 rounded-full border-2 border-white absolute left-[-1.1rem] bg-gray-800">
-              2
-            </button>
-            <h1 className="text-[1.25rem] font-bold">
-              Data-driven digital strategy
-            </h1>
-            <p className="text-[1rem] md:text-[1.25rem]  mt-2">
-              Whether developing an MVP or launching a multi-faceted campaign,
-              we work nimbly and efficiently.
-            </p>
-          </div>
-          <div className="relative border-dashed border-l-2 border-white pl-8 pb-4">
-            <button className="px-3 py-1 rounded-full border-2 border-white absolute left-[-1.1rem] bg-gray-800">
-              3
-            </button>
-            <h1 className="text-[1.25rem] font-bold">
-              Agile approach to everything
-            </h1>
-            <p className="text-[1rem] md:text-[1.25rem]  mt-2">
-              Whether developing an MVP or launching a multi-faceted campaign,
-              we work nimbly and efficiently.
-            </p>
-          </div>
-          <div className="relative border-dashed pl-8 pb-4">
-            <button className="px-3 py-1 rounded-full border-2 border-white absolute left-[-1.1rem] bg-gray-800">
-              4
-            </button>
-            <h1 className="text-[1.25rem] font-bold">
-              Analyze. Improve. Repeat.
-            </h1>
-            <p className="text-[1rem] md:text-[1.25rem] mt-2">
-              Good performance can always be better. We analyze our results and
-              use the data to continuously raise the bar.
-            </p>
-          </div>
+          ))}
         </div>
       </div>
     </div>
@@ -147,6 +112,11 @@ const About = () => {
 
 export default About;
 
+// {
+//   "step": 1,
+//   "title": "No two clients are the same",
+//   "description": "Your business is unique. We invest time to understand each client’s needs and provide tailored solutions."
+// },
 {
   /* {aboutData.images.map((image, index) => (
           <div key={index} className="w-full md:w-1/3 overflow-hidden group relative">

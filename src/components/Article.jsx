@@ -36,7 +36,7 @@ const Article = () => {
                   <img src={card.icon} alt="" className="h-8 w-8" />
                 </button>
                 <h1 className="text-lg font-bold mb-2 mt-2">{card.title}</h1>
-                <p className="text-sm text-start line-clamp-3">{card.description}</p>
+                <p className="text-sm text-start">{card.description}</p>
               </div>
             ))}
           </div>
