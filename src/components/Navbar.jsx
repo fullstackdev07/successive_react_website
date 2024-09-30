@@ -20,7 +20,7 @@ const Navbar = () => {
 
   return (
     <nav className={`fixed top-0 w-full z-40 ${navbarColour ? "backdrop-blur-md transition duration-700" : "bg-transparent"}`}>
-      <div className="flex items-center justify-between max-w-7xl mx-auto m-0 p-2 px-4 md:p-0 ">
+      <div className="flex items-center justify-between max-w-7xl mx-auto m-0 p-2 px-4 md:p-0 md:px-2 ">
         <div className="flex">
           <img
             src={navbarContent.brand.logo.src}
