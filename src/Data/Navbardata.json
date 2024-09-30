@@ -17,12 +17,12 @@
         "href" : "#home"
       },
       {
-        "text": "Service",
+        "text": "Expertise",
         "className": "hover:text-green-600 transition duration-200 cursor-pointer",
         "href" : "#Service"
       },
       {
-        "text": "Our Projects",
+        "text": "Our Work",
         "className": "hover:text-green-600 transition duration-200 cursor-pointer",
         "href" : "#Projects"
       },
@@ -32,7 +32,7 @@
         "href" : "#Achivement"
       },
       {
-        "text": "About us",
+        "text": "About",
         "className": "hover:text-green-600 transition duration-200 cursor-pointer",
         "href" : "#About"
       }
