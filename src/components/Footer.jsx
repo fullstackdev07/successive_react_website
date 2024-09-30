@@ -44,13 +44,13 @@ const Footer = () => {
         </div>
 
         {/* Social Media Section */}
-        <div className={socialMediaSection?.className || ""}>
+        {/* <div className={socialMediaSection?.className || ""}>
           {socialMediaSection?.socialLinks?.map((social, index) => (
             <a key={index} href={social?.href || "#"}>
               <i className={`bi ${social?.icon || ""} ${social?.className || ""}`}></i>
             </a>
           ))}
-        </div>
+        </div> */}
       </div>
     </footer>
   );

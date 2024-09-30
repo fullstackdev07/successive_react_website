@@ -24,7 +24,7 @@
         },
         "copyrightSection": {
           "className": "text-center md:text-left text-white mb-4 md:mb-0",
-          "text": "©2024 Successive Technologies Ltd",
+          "text": "©2024 Successive Technologies",
           "links": [
             {
               "text": "Privacy Notice",
