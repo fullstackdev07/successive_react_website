@@ -7,7 +7,7 @@ export default {
         "infinite-scroll": "infinite-scroll 25s linear infinite",
       },
       screens : {
-        md : "810px"
+        md : "812px"
       },
       keyframes: {
         "infinite-scroll": {
